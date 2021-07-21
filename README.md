@@ -1,5 +1,20 @@
 # COVID_Data_Analysis
 
+## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
+The Project Deliverables were in 4 segments
+
+## First Segment: 
+Sketch It Out: Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
+Our Group 4 was of 6 members.  We had our first meeting in a breakout room, in class (on zoom.)  We bainstormed on several topics.  2 of the group members had already discussed crytocurrencies, 
+
+## Second Segment: 
+Build the Pieces: Train your model and build out the database you'll use for your final presentation.
+
+## Third Segment: Plug It In: 
+Connect your final database to your model, continue to train your model, and create your dashboard and presentation.
+
+## Fourth Segment: 
+Put It All Together: Put the final touches on your model, database, and dashboard. Lastly, create and deliver your final presentation to your class.
 
 
 
