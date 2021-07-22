@@ -24,7 +24,6 @@ Put It All Together: Put the final touches on your model, database, and dashboar
 
 ## Project Group Delivery   
 
-
 # Coronavirus Pandemic Playbook
 
 ## Project Topic, Background, Audience
