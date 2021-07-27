@@ -97,7 +97,7 @@ I made sure the following ruberic points were covered:
 I used the following Python code to do some more cleaning:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Clean_Covid_19_Pandemic_Data.ipynb]
 and came up with this table for analysis:
-
+https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_database_cleaned.csv
 
 Reaction: 
 Kimi, David, and Michael were upset about the dates used (Jan 2020 to Jul 2020)
@@ -105,6 +105,16 @@ They preferred March 2020 to March 2021, and only wanted to work on data on MD
 Michael came up with the table: , for our class presentation
 Michael and Kimi created / imported a data dictionary into the ReadME file on our group Github repository
 Nick commented that the table was too small and had some questions for Michael on the Machine Learning
+
+Note:
+We noticed that the categories for
+Sex was: MALE, FEMALE, any possible Unknown
+Age group: 0 - 17 years, 18 to 49 years, 50 to 64 years, 65+ years, any possible Unknown
+Race: Black, White, Asian, Multiple/Other, American Indian/Alaska Native, Native Hawaiian/Other Pacific Islander, any possible Unknown
+
+The SQL steps is documented in:
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL.txt]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL%20EXPAND%20TABLE.txt]
 
 This is the table we had for presentation of Deliverable 2:
 
@@ -428,8 +438,67 @@ We have also created a simple HTML file to show the dashboard in a dedicated web
 
 
 
-#### OBSERVATIONS
-s
+#### OBSERVATIONS:
+
+[(0.44178714821782483, 'covid_age_goup_0_17'),
+ (0.07412533360663463, 'POPULATION_DENSITY'),
+ (0.0737820324643414, 'covid_no_race'),
+ (0.05999787615511764, 'covid_race_white'),
+ (0.03620229393610865, 'covid_race_am_indian_alaska_native'),
+ (0.03269253316151188, 'state_policy_prevention_mandates_score'),
+ (0.029607240854776208, 'covid_sex_male'),
+ (0.024472199764585534, 'number_nonreligious'),
+ (0.021528234472162122, 'covid_age_goup_50_64'),
+ (0.01887583730471191, 'state_land_area_sqmile'),
+ (0.017679830188631604, 'covid_age_goup_65plus'),
+ (0.01594264378358413, 'covid_sex_female'),
+ (0.014850139550358488, 'economic_confidence_index'),
+ (0.013674965083671534, 'covid_race_asian'),
+ (0.010942231726525593, 'total_COVID_ST_population'),
+ (0.010763211535281423, 'covid_age_goup_18_49'),
+ (0.009258529018558503, 'tot_airports'),
+ (0.009079495624115566, 'number_liberals'),
+ (0.0072684126341363495, 'percent_uninsured'),
+ (0.007177547079866616, 'number_democrat_lean'),
+ (0.00697143802217925, 'median_income'),
+ (0.006688984288442245, 'covid_race_multiple_other'),
+ (0.006277976997344304, 'number_uninsured'),
+ (0.005724866585514839, 'covid_race_native_hawaiian_other_pacific'),
+ (0.00536580125801899, 'people_who_dont_care_about_trump'),
+ (0.0030382135414564657, 'trump_disapproval'),
+ (0.0027818154782416173, 'covid_race_black'),
+ (0.002757711772516092, 'number_republican_lean'),
+ (0.002489561891531894, 'airport_area'),
+ (0.0020867119707480572, 'trump_approval'),
+ (0.001796387663598262, 'number_no_political_ideology'),
+ (0.0015762911657213555, 'age_group_65plus_no_covid'),
+ (0.0015469312487043337, 'age_group_18_49_no_covid'),
+ (0.0015300231413400412, 'total_STATE_population'),
+ (0.0014218705401471746, 'number_conservatives'),
+ (0.001418549370968488, 'number_moderatly_religious'),
+ (0.0014107105385940727, 'age_group_50_64_no_covid'),
+ (0.0012765315869595415, 'number_eat_produce_frequently'),
+ (0.0012601321688288482, 'sex_male_no_covid'),
+ (0.0012159892697491462, 'number_neither_democrat_or_republican'),
+ (0.0010324554897159003, 'number_dont_feel_community_recognition'),
+ (0.0010217589490164563, 'census_population'),
+ (0.0008548102208293749, 'number_very_religious'),
+ (0.0007968791204779027, 'number_dont_exercise_frequently'),
+ (0.0007943487921123671, 'number_arent_active_and_productive'),
+ (0.0007867589226449452, 'sex_female_no_covid'),
+ (0.000767229100306302, 'number_feel_active_and_productive'),
+ (0.0007394033536978762, 'number_exercise_frequently'),
+ (0.0007253228472632168, 'number_feel_recognize_by_community'),
+ (0.0006949010126667388, 'number_not_worried_about_money'),
+ (0.0006787818155410263, 'number_worried_about_money'),
+ (0.0006592928196692134, 'total_noCOVID_ST_population'),
+ (0.0006526498838199444, 'age_group_0_17_no_covid'),
+ (0.0006129858713567292, 'number_dont_eat_produce_frequently'),
+ (0.0004490797066645125, 'number_moderates'),
+ (0.0003891074311076836, 'number_insured')]
+ 
+ ------------------------------------------------------------------------------
+ 
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
