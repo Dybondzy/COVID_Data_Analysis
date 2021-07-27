@@ -13,13 +13,19 @@ Our Group 4 has 6 members.  We had our first meeting in a breakout room, in clas
 We agreed and documented the following questions, in the README file in our Github repository:
 [https://github.com/dwwatson1/coronavirus_pandemic_playbook]
 
-1. What is the population per state at the beginning and end of the pandemic?
-2. How has race played a role in the spread of the COVID-19 pandemic?
-3. Could the level of poverty and inequality affect the spread of COVID-19? If so what is the impact?
-4. Did having medical insurance play a role in the cure and deaths?
-5. What were the top 20 uSAs (Micropolitan Statistical Areas) impacted by Covid-19?
-6. During periods of Covid-19 case spikes, were there geographical or state areas that trended with these spikes?
-7. Did political affiliation of areas have an influence on the number of Covid cases prior to vaccine distribution?
+=  What is the population per state at the beginning and end of the pandemic?
+ 
+=  How has race played a role in the spread of the COVID-19 pandemic?
+
+=  Could the level of poverty and inequality affect the spread of COVID-19? If so what is the impact?
+
+=  Did having medical insurance play a role in the cure and deaths?
+
+=  What were the top 20 uSAs (Micropolitan Statistical Areas) impacted by Covid-19?
+
+=  During periods of Covid-19 case spikes, were there geographical or state areas that trended with these spikes?
+
+=  Did political affiliation of areas have an influence on the number of Covid cases prior to vaccine distribution?
  
 NOTE: We knew that the questions may change over the course of the project.
 
@@ -41,7 +47,7 @@ https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Dat
 https://worldpopulationreview.com/states/state-abbreviations (for states)
 
  
- 
+Project Delivery 1 was the above 
 
 
 --------------------------------------------------
@@ -134,57 +140,9 @@ The output file from our analysis:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/COVID_MARCH2020_DEC2020_TOTALS_PROJECT4.csv]
 
 
-
---------------------------------------------------
-We
-
---------------------------------------------------
-
-### Model
-
-
-### Data (csv)
-
-
-### Dashboard Prototype
-
-Our Group 4 was of 6 members.  We had our first meeting in a breakout room, in class (on zoom.)  We bainstormed on several topics.  2 of the group members had already discussed crytocurrencies, 
-
-
-
---------------------------------------------------
-
-## Second Segment: 
-Build the Pieces: Train your model and build out the database you'll use for your final presentation.
-
-## Third Segment: Plug It In: 
-Connect your final database to your model, continue to train your model, and create your dashboard and presentation.
-
-## Fourth Segment: 
-Put It All Together: Put the final touches on your model, database, and dashboard. Lastly, create and deliver your final presentation to your class.
-
-
-# PROJECT PURPOSE 
-## Each segment's tasks follow:
-
-### First Segment: 
-Sketch It Out: Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
-
-### Second Segment: 
-Build the Pieces: Train your model and build out the database you'll use for your final presentation.
-
-### Third Segment: 
-Plug It In: Connect your final database to your model, continue to train your model, and create your dashboard and presentation.
-
-### Fourth Segment: 
-Put It All Together: Put the final touches on your model, database, and dashboard. Lastly, create and deliver your final presentation to your class.
-
-
-
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Project Group Delivery   
+## Project Group Delivery 3  
 
 # Coronavirus Pandemic Playbook
 
@@ -467,3 +425,130 @@ User can select marks to see information about a specific data filed. One can al
 When you select marks in the view, all other marks are dimmed to draw attention to the selection. The selection is saved with the workbook. Quick data view can also be done by one of the run-on options; hovering your mouse on the charts/marks. 
 
 We have also created a simple HTML file to show the dashboard in a dedicated webpage with another interactive element where users can download the analysis into PDF file. 
+
+
+
+#### OBSERVATIONS
+s
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Project Delivery 4
+
+We are at a crossroad right now.  All the work of the past 3 weeks seems to be erasing and I have questions
+
+From the good work we had in Delivery 3, questions were asked
+My reaction is that it is good to have questions and interest, so we are on track.
+Michael had conversations on improving the machine language, and changed all the tables, cancelling SQL, ERD and all other tables, to get a targeted answer.  Michael and David created a fabricated / synthetic table, that will change our analysis.  I had questions for further conversations:
+
+----------------
+
+Michael Leggett  10:45 AM
+@Dinah Bondzie, here is the covid data if you would like to start putting this into SQL. These files just need to be joined on top of each other if that makes sense, so there should be only 5 columns (state, age, sex, race, has_covid) and millions of rows. David and I are working on the data for the people who don't have covid and we will send that to you as soon as its ready.
+4 files 
+data_part1.zip
+6 MB Zip6 MB — Click to download
+
+
+data_part2.zip
+3 MB Zip3 MB — Click to download
+
+
+data_part3.zip
+5 MB Zip5 MB — Click to download
+
+
+data_part4.zip
+5 MB Zip5 MB — Click to download
+
+
+
+David Watson  11:51 AM
+Only think I ask is that if we make new SQL documentation like the txt file. Can we save it under a new name like Part 2? I want to keep most of what we did for the Part 1 Analysis because it explains all the exploration that went into the project
+
+Dinah Bondzie  3:04 PM
+Could someone please explain the changes we are making?
+3:04
+Why do we have to discard the work we've done in the past 3 weeks?
+3:05
+What do I do with the zipped files
+3:05
+The new analysis seems to be a bit beyond my knowledge from the bootcamp (or may be not)
+
+David Watson  3:21 PM
+@Dinah Bondzie This part is going to make our analysis better and more clear. We want to be able to answer our crux question which is do we need to rewrite the playbook. As the analysis stands right now, we can't identify anything because we looked at data from states rather than generating data that represented states. Michael and I have been working on this and building out millions or rows of data. Think of this as our second attempt to make our project stronger. I'm keeping everything in the README as is but with this second pass, we should be able to get a more solid conclusion and visualizations as I understand it. Feel free to add if I missed @Michael Leggett
+3:22
+I think the TA's and Nick will appreciate the thought we put into this. But where this stands now, this part is like the conclusion/lessons learned part. But we're actually giving it a good and seeing what happens
+
+Dinah Bondzie  3:24 PM
+David, apart from you and Michael, who else understands and agrees with the change
+3:25
+I just prefer when we have the facts clear
+
+Michael Leggett  3:57 PM
+The facts are simply this:
+Our aggregated table does not have a lot of predictive power. What a machine learning does is split data into testing and predictive so it will take 75% of our data and try to predict the other 25%. That means that it will take 35 states, learn from those states, and then use that to predict the affect of covid for the other 15. That is not good analysis. These states are individual observations. To have the model take CA and NY and predict for Nebraska would be bad.
+With data aggregated by state, we simply cannot find the factors for each state and compare with the big table, even if running our big table through the ML model had any sort of sound analysis. That was what triggered the conversation with Zeb in the first place.
+This leaves us with faulty analysis and a bad ML model. So what's the alternative?
+The alternative is we try something else, mainly because we don't have much of a choice. This doesn't mean what we did was worthless. It's still an excellent tool for Tableau and data visualizations, plus everything that David laid out in his earlier message, and it was a big help in what I'm about to explain next.
+Our only alternative is to go back to what we originally wanted to do in the first place - be able to predict whether or not someone has covid based on a bunch of factors with the target variable being whether or not a person has covid. That was the original idea. Where it snagged was that we only had data for who has covid and no data for who does not have covid. David and I have been working on a way to use feature engineering (Zeb said it was incorrect to say synthetic data) to create new values for those people who do not have covid. We used the big table Dinah created in SQL to help us do this. It's already almost done. Once I send those tables to you Dinah, we could have a ML model for this as soon as tomorrow. We'll be able to run ML models for this big new table and ML models for each state and compare. That's the current plan which we laid out in our post Zeb meeting which I thought we were mostly on board for.
+There is not much being done outside the scope of this bootcamp. The creating the "synthetic data" kind of is but again, it's already almost done, and even then, we have done feature engineering in this bootcamp, it's not necessarily new.
+Please continue to post questions or concerns in here, as it's important that we're all on the same page.
+
+Dinah Bondzie  5:49 PM
+@Michael Leggett do you mean put all files into the same table?  No joins, just import.  The ERD will be the one table.  Also, no summarizing
+5:50
+Maybe join to the noCOVID file when you send it
+
+Dinah Bondzie  5:59 PM
+@David Watson It'll be the same as the cdc_data file in the past ERDs
+:ok_hand:
+1
+
+
+Michael Leggett  6:49 PM
+@Dinah Bondzie Yes, I think you have it right! My saying 'join' probably wasn't the right word. The four data files look exactly the same - they have the same column headings. They're essentially one big table just split into four different csv files and they need to be put back together into one giant file in SQL. As you said, just imports will probably do! The table in SQL should maintain those 5 column headings and have millions of rows. Hope this helps.
+
+Dinah Bondzie  9:15 PM
+@Michael Leggett combining the 4 zipped files into one csv file is too big for my processor.  Can you run your ML code on the csv files you sent me?  It doesn't change ... or shouldn't
+9:16
+You did the work already :blush:
+9:18
+No new ERD either, it is not relating to any other database / table
+9:21
+Don't we loose some points without SQL joins?  Have we covered that
+
+Michael Leggett  1:34 PM
+No worries Dinah! I was able to combine the data. It is very large so uploading to amazon s3 now. Hoping I'm able to run this through a ML model before class today and hopefully we can really use class time to discuss how to move forward and see if this is something that is worth pursuing or if we should try to figure out something further with our aggregated data. Maybe putting our table into ratios and using an unsupervised model would be enough to be able to keep using our aggregated data? Any other thoughts? Hoping Nic will join in our breakout room at some point and maybe he can help guide us.
+1:38
+Mainly the issue is that we just don't have enough observations. We have county data, maybe we can aggregate by county instead?
+
+Dinah Bondzie  1:39 PM
+Ok
+
+Michael Leggett  1:42 PM
+Or maybe we bite the bullet and say, hey, this is what we got. Here a bunch of next step options. I don't think Nic would necessarily be upset with that but I guess we can see.
+
+Dinah Bondzie  1:43 PM
+Michael, I know you mean well for our group
+1:43
+Let's just get questions answered
+
+David Watson  1:51 PM
+I think the ship has sailed on pursuing county data. We committed to this route on Sat. and I think that's fine as long as we explain what happened and it's really ok if there are limitations from the data. After all, I think the joins would've been way more challenging by county. Would've needed a lot of manual data segmentation
+New
+
+Michael Leggett  1:54 PM
+Yeah I agree David, good points. Would be a good thing to mention in a next step section or something similar though
+
+David Watson  1:54 PM
+Did we get our deliverable 3 graade?
+
+Michael Leggett  1:54 PM
+I do not see a grade yet
+
+
+
+
+----------------
