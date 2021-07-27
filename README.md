@@ -85,6 +85,10 @@ I made sure the following ruberic points were covered:
   -   Use database integration (Postgres, MongoDB, or SQLite) to store your cleaned data. 
   -   Implement machine learning to enhance your topic. 
   -   Your work will need a showcase—use tools such as Tableau or JavaScript to build a dashboard to present your results. 
+  -   Database stores static data for use during the project Database interfaces with the project in some format (e.g., scraping updates the database) Includes at least two 
+      tables (or collections, if using MongoDB) Includes at least one join using the database language (not including any joins in Pandas) Includes at least one connection      
+      string (using SQLAlchemy or PyMongo) IMPORTANT If you use a SQL database, you must provide your ERD with relationships.
+
 
  
  Then I shared the work I had done with the group, calling for discussion.  Reaction called for a zoom meeting (which I quickly scheduled)
@@ -109,8 +113,14 @@ Nick commented that the table was too small and had some questions for Michael o
 Note:
 We noticed that the categories for
 Sex was: MALE, FEMALE, any possible Unknown
+[https://github.com/Dybondzy/Covid_19_Pandemic_Must_Know/blob/main/SEX.csv]
+
 Age group: 0 - 17 years, 18 to 49 years, 50 to 64 years, 65+ years, any possible Unknown
+[https://github.com/Dybondzy/Covid_19_Pandemic_Must_Know/blob/main/AGE_GROUP.csv]
+
 Race: Black, White, Asian, Multiple/Other, American Indian/Alaska Native, Native Hawaiian/Other Pacific Islander, any possible Unknown
+[https://github.com/Dybondzy/Covid_19_Pandemic_Must_Know/blob/main/RACE.csv
+
 
 The SQL steps is documented in:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL.txt]
@@ -125,7 +135,7 @@ This is the table we had for presentation of Deliverable 2:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/OUTPUT%20TABLE%20of%20SUMMARY.png]
 
 Comment:
-What did I notice in the presentation:  David made the presentation as Project Manager and referred to Michael throughout as having discussions with him.  David made some references to Kimi and Jack, also contributing to the project.  I clearly noticed my name was left out.  This, I pointed out at our next Project 3 Group zoom meeting.  David's reaction was to ask me to do the presentation.  What I meant to say is that, mention my name as part of the group.  (I noticed that this never happened.  I noted it and moved on.  At least the stakeholders (project members,) have accepted the work we all did.)
+What did I notice in the presentation:  David made the presentation as Project Manager and referred to Michael throughout as having discussions with him.  David made some references to Kimi and Jack, also contributing to the project.  I clearly noticed my name was left out.  This, I pointed out at our next Project 3 Group zoom meeting.  David's reaction was to ask me to do the presentation.  What I meant to say is that, mention my name as part of the group.  (I noticed that this never happened.  I noted it and moved on.  At least the stakeholders (project members,) have "bought into the idea.")
 
 
 Then, Michael sent me these files:  for Deliverable 3:
