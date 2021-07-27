@@ -49,6 +49,9 @@ B. Used machine learning on Colab, to clean out the data (eliminating some colum
    []
 C. Used Postgres in PGAdmin to create summmary data and come up with the output csv
    []
+   And the States in the US from
+   [https://worldpopulationreview.com/states/state-abbreviations]
+   
 D. I went into Tableau and created some graphs
 
 I made sure the following ruberic points were covered:
