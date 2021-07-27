@@ -7,11 +7,62 @@ The Project Deliverables were in 4 segments
 Sketch It Out: Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
 
 ### Project Overview
-Our Group 4 has 6 members.  We had our first meeting in a breakout room, in class (on zoom.)  We bainstormed on several topics.  2 of the group members had already discussed crytocurrencies, and a few other topics were discussed.  I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  David went ahead and created a Githud ripository for our group, and we jotted down some questions that we wanted out project to answer.  It was agreed we would like politicians to use our data to make management decisions if a similar pandemic was to break out.  We also decided to scrape the net for data collection.
+Our Group 4 has 6 members.  We had our first meeting in a breakout room, in class (on zoom.)  We bainstormed on several topics.  2 of the group members had already discussed crytocurrencies, and a few other topics were discussed.  I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  David went ahead and created a Githud ripository for our group, and we jotted down some questions that we wanted out project to answer.  It was agreed we would like policy makers to use our data to make management decisions if a similar pandemic was to break out.  We also decided to scrape the net for data collection.
 
 ### Questions to answer
+We agreed and documented the following questions, in the README file in our Github repository:
+[https://github.com/dwwatson1/coronavirus_pandemic_playbook]
 
-Possible places for data:
+1. What is the population per state at the beginning and end of the pandemic?
+2. How has race played a role in the spread of the COVID-19 pandemic?
+3. Could the level of poverty and inequality affect the spread of COVID-19? If so what is the impact?
+4. Did having medical insurance play a role in the cure and deaths?
+5. What were the top 20 uSAs (Micropolitan Statistical Areas) impacted by Covid-19?
+6. During periods of Covid-19 case spikes, were there geographical or state areas that trended with these spikes?
+7. Did political affiliation of areas have an influence on the number of Covid cases prior to vaccine distribution?
+ 
+NOTE: We knew that the questions may change over the course of the project.
+
+We documented the possible places for data:
+
+[John Hopkins Coronavirus Data](https://coronavirus.jhu.edu/data/new-cases-50-states)
+
+[U.S. Census Data](https://www.census.gov/data/developers/data-sets.html)
+
+[Additional data source that we are considering](https://docs.google.com/document/d/10i01u6oQAUVCbk5VTL6G0rIsTF9JlO1I90XTCDXWTCA/edit)
+
+[Another possible data APIs](https://blogs.mulesoft.com/dev-guides/track-covid-19/)
+
+[A database that we can consider] (https://covidtracking.com/data/download)
+
+(https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-Profile/xigx-wn5e)
+https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4
+
+https://worldpopulationreview.com/states/state-abbreviations (for states)
+
+
+### My Personal work
+In order for me to undertand the project scope and the points that have to be covered in the project, 
+A. I download covid totals data from cdc
+   []
+B. Used machine learning on Colab, to clean out the data (eliminating some column with very little data)
+   []
+C. Used Postgres in PGAdmin to create summmary data and come up with the output csv
+   []
+D. I went into Tableau and created some graphs
+
+I made sure the following ruberic points were covered:
+  -   Python will be used to clean, prepare, and explore the data, as well as to complete initial analysis. 
+  -   Python libraries, JavaScript libraries (such as Data-Driven Documents, or D3, and Plotly), and Tableau can be used to create visuals to help tell your data story.
+  -   Use database integration (Postgres, MongoDB, or SQLite) to store your cleaned data. 
+  -   Implement machine learning to enhance your topic. 
+  -   Your work will need a showcase—use tools such as Tableau or JavaScript to build a dashboard to present your results. 
+
+ 
+ 
+
+
+--------------------------------------------------
 
 ### Model
 
@@ -22,6 +73,10 @@ Possible places for data:
 
 Our Group 4 was of 6 members.  We had our first meeting in a breakout room, in class (on zoom.)  We bainstormed on several topics.  2 of the group members had already discussed crytocurrencies, 
 
+
+
+--------------------------------------------------
+
 ## Second Segment: 
 Build the Pieces: Train your model and build out the database you'll use for your final presentation.
 
@@ -31,6 +86,21 @@ Connect your final database to your model, continue to train your model, and cre
 ## Fourth Segment: 
 Put It All Together: Put the final touches on your model, database, and dashboard. Lastly, create and deliver your final presentation to your class.
 
+
+# PROJECT PURPOSE 
+## Each segment's tasks follow:
+
+### First Segment: 
+Sketch It Out: Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
+
+### Second Segment: 
+Build the Pieces: Train your model and build out the database you'll use for your final presentation.
+
+### Third Segment: 
+Plug It In: Connect your final database to your model, continue to train your model, and create your dashboard and presentation.
+
+### Fourth Segment: 
+Put It All Together: Put the final touches on your model, database, and dashboard. Lastly, create and deliver your final presentation to your class.
 
 
 
