@@ -45,7 +45,7 @@ https://worldpopulationreview.com/states/state-abbreviations (for states)
 In order for me to undertand the project scope and the points that have to be covered in the project, 
 A. I download summary national covid totals data from cdc
    [https://covidtracking.com/data/download]
-   It was data from March 2020 to March 2021
+   It was data from January 2020 to July 2021
    
 B. Used machine learning on Colab, to clean out the data (eliminating some column with very little data)
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Covid_19_Pandemic_Must_Know.ipynb]
@@ -61,6 +61,9 @@ C. Used Postgres in PGAdmin to create summmary data and come up with the output 
    [https://worldpopulationreview.com/states/state-abbreviations]
    
 D. I went into Tableau and created some graphs
+   [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/all_states_history_graph.png]
+   (with a few more screen prints in the Images folder)
+
 
 I made sure the following ruberic points were covered:
   -   Python will be used to clean, prepare, and explore the data, as well as to complete initial analysis. 
