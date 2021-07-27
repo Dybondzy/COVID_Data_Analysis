@@ -45,6 +45,7 @@ https://worldpopulationreview.com/states/state-abbreviations (for states)
 In order for me to undertand the project scope and the points that have to be covered in the project, 
 A. I download summary national covid totals data from cdc
    [https://covidtracking.com/data/download]
+   It was data from March 2020 to March 2021
    
 B. Used machine learning on Colab, to clean out the data (eliminating some column with very little data)
    []
