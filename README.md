@@ -56,8 +56,9 @@ B. Used machine learning on Colab, to clean out the data (eliminating some colum
    
 
 C. Used Postgres in PGAdmin to create summmary data and come up with the output csv
-   []
-   And the States in the US from
+   ![https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/JAN2020_JUL2021_COVIDDEATH_CONTRIBUTERS.csv]
+   ![https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/JAN2020_JUL2021_COVIDDEATH_BYSTATES.csv]
+   After joining the data with data on: States in the US from
    [https://worldpopulationreview.com/states/state-abbreviations]
    
 D. I went into Tableau and created some graphs
