@@ -89,12 +89,13 @@ I made sure the following ruberic points were covered:
  -    We updated Github of the search data (David and Kimi updated the sites for data and Michael updated the Machine Learning section)
 
 I used the following Python code to do some more cleaning:
-
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Clean_Covid_19_Pandemic_Data.ipynb]
 and came up with:
 
 Reaction: 
 Kimi, David, and Michael were upset about the dates used (Jan 2020 to Jul 2020)
-Michael came up with the table: for our class presentation
+They preferred March 2020 to March 2021, and only wanted to work on data on MD
+Michael came up with the table: , for our class presentation
 Nick commented that the table was too small and had some questions for Michael on the Machine Learning
 
 
