@@ -556,7 +556,29 @@ This is the brilliant work that Michael did with Machine Learning and resulted i
  (0.0003891074311076836, 'number_insured')]
  
  ------------------------------------------------------------------------------
- 
+Beautiful Conclusions: 
+
+Using our Target Variable:
+
+= COVID spread was majority among the age grou 0 to 17 (and they recovered from it)
+
+= Population Density, as expected, played a part in the spread of COVID (answering the question of why some places were so badly hit)
+
+= People chose not to identify the race in their documentation of the pandemic (maybe indicating that at a time like this, race is the last thing on the mind)
+
+= More Men had covid than Women
+
+= More people in the age group 50 Plus had covid
+
+= Money had no effect on getting covid
+
+= More people in age group 0 to 17 did not have covid
+
+= More people who do not eat produce frequently, did not get covid
+
+= More Moderates did not get covid
+
+= More people with medical insurance did not get covid
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -679,3 +701,6 @@ I do not see a grade yet
 
 
 ----------------
+
+
+
