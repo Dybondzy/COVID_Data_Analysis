@@ -50,9 +50,9 @@ A. I download summary national covid totals data from cdc
 B. Used machine learning on Colab, to clean out the data (eliminating some column with very little data)
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Covid_19_Pandemic_Must_Know.ipynb]
    using the csv file: all_states_history.csv
-   []
+   [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/all_states_history.csv]
    to create the csv file: cleaned_states_history.csv
-   []
+   [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cleaned_states_history.csv]
    
 
 C. Used Postgres in PGAdmin to create summmary data and come up with the output csv
