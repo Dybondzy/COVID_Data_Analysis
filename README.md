@@ -96,6 +96,7 @@ Reaction:
 Kimi, David, and Michael were upset about the dates used (Jan 2020 to Jul 2020)
 They preferred March 2020 to March 2021, and only wanted to work on data on MD
 Michael came up with the table: , for our class presentation
+Michael and Kimi created / imported a data dictionary into the ReadME file on our group Github repository
 Nick commented that the table was too small and had some questions for Michael on the Machine Learning
 
 
