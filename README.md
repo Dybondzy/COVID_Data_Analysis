@@ -40,9 +40,16 @@ https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Dat
 
 https://worldpopulationreview.com/states/state-abbreviations (for states)
 
+ 
+ 
+
+
+--------------------------------------------------
+
 
 ### My Personal work
-In order for me to undertand the project scope and the points that have to be covered in the project, 
+In order for me to undertand the project scope and the points that have to be covered in the project: 
+
 A. I download summary national covid totals data from cdc
    [https://covidtracking.com/data/download]
    It was data from January 2020 to July 2021
@@ -74,12 +81,27 @@ I made sure the following ruberic points were covered:
   -   Your work will need a showcase—use tools such as Tableau or JavaScript to build a dashboard to present your results. 
 
  
- 
+ Then I shared the work I had done with the group, calling for discussion.  Reaction called for a zoom meeting (which I quickly scheduled)
+ -    Everyone seemed to want to change the data
+ -    We searched the net for more data; scraping
+ -    We aggreed on CDC data and I downloaded the data while we discussed it
+ -    We agreed that our searches have to include US STATES
+ -    We updated Github of the search data (David and Kimi updated the sites for data and Michael updated the Machine Learning section)
+
+I used the following Python code to do some more cleaning:
+
+and came up with:
+
+Reaction: 
+Kimi, David, and Michael were upset about the dates used (Jan 2020 to Jul 2020)
+Michael came up with the table: for our class presentation
+Nick commented that the table was too small and had some questions for Michael on the Machine Learning
 
 
 --------------------------------------------------
 
 ### Model
+
 
 ### Data (csv)
 
