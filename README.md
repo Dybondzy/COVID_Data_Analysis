@@ -43,10 +43,12 @@ https://worldpopulationreview.com/states/state-abbreviations (for states)
 
 ### My Personal work
 In order for me to undertand the project scope and the points that have to be covered in the project, 
-A. I download covid totals data from cdc
-   []
+A. I download summary national covid totals data from cdc
+   [https://covidtracking.com/data/download]
+   
 B. Used machine learning on Colab, to clean out the data (eliminating some column with very little data)
    []
+
 C. Used Postgres in PGAdmin to create summmary data and come up with the output csv
    []
    And the States in the US from
