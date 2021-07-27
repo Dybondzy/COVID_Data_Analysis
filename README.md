@@ -99,6 +99,20 @@ Michael came up with the table: , for our class presentation
 Michael and Kimi created / imported a data dictionary into the ReadME file on our group Github repository
 Nick commented that the table was too small and had some questions for Michael on the Machine Learning
 
+This is the table we had for presentation of Deliverable 2:
+
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.png]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED data in PGADMIN%20csv%20file.png]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.pngCREATE INPUT TABLE%20csv%20file]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.pngOUTPUT TABLE of SUMMARY%20csv%20file]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.pngEXTRACT DATA FROM INPUT TABLE AND INSERT VALUES IN OUTPUT TABLE%20csv%20file]
+
+Comment:
+What did I notice in the presentation:  David made the presentation as Project Manager and referred to Michael throughout as having discussions with him.  David made some references to Kimi and Jack, also contributing to the project.  I clearly noticed my name was left out.  This, I pointed out at our next Project 3 Group zoom meeting.  David's reaction was to ask me to do the presentation.  What I meant to say is that, mention my name as part of the group.  (I noticed that this never happened.  I noted it and moved on.  At least the stakeholders (project members,) have accepted the work we all did.)
+
+
+Then, Michael sent me these files:  for Deliverable 3
+At this point, we had data for Tableau Dashboards and further machine learning analysis 
 
 --------------------------------------------------
 
