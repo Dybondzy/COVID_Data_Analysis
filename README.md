@@ -90,7 +90,8 @@ I made sure the following ruberic points were covered:
 
 I used the following Python code to do some more cleaning:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Clean_Covid_19_Pandemic_Data.ipynb]
-and came up with:
+and came up with this table for analysis:
+
 
 Reaction: 
 Kimi, David, and Michael were upset about the dates used (Jan 2020 to Jul 2020)
@@ -102,17 +103,40 @@ Nick commented that the table was too small and had some questions for Michael o
 This is the table we had for presentation of Deliverable 2:
 
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.png]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED data in PGADMIN%20csv%20file.png]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.pngCREATE INPUT TABLE%20csv%20file]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.pngOUTPUT TABLE of SUMMARY%20csv%20file]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.pngEXTRACT DATA FROM INPUT TABLE AND INSERT VALUES IN OUTPUT TABLE%20csv%20file]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20data%20in%20PGADMIN.png]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/CREATE%20INPUT%20TABLE.png]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/EXTRACT%20DATA%20FROM%20INPUT%20TABLE%20AND%20INSERT%20VALUES%20IN%20OUTPUT%20TABLE.png]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/OUTPUT%20TABLE%20of%20SUMMARY.png]
 
 Comment:
 What did I notice in the presentation:  David made the presentation as Project Manager and referred to Michael throughout as having discussions with him.  David made some references to Kimi and Jack, also contributing to the project.  I clearly noticed my name was left out.  This, I pointed out at our next Project 3 Group zoom meeting.  David's reaction was to ask me to do the presentation.  What I meant to say is that, mention my name as part of the group.  (I noticed that this never happened.  I noted it and moved on.  At least the stakeholders (project members,) have accepted the work we all did.)
 
 
-Then, Michael sent me these files:  for Deliverable 3
+Then, Michael sent me these files:  for Deliverable 3:
+
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part3.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part4.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_age_no_covid.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_sex_no_covid.csv]
+
+Jack and Kimi and Michael added some downloaded data from from CDC
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Group4%20Airport%20By%20Area.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/household_income_by_state.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/state_factors_from_gallup.csv]
+
 At this point, we had data for Tableau Dashboards and further machine learning analysis 
+Yodit and Jack did some work in Tableau
+Michael did some neat data analysis in Machine Learning that we were all impressed and anxious to present at our next class meeting.
+
+The output file from our analysis:
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/COVID_MARCH2020_DEC2020_TOTALS_PROJECT4.csv]
+
+
+
+--------------------------------------------------
+We
 
 --------------------------------------------------
 
