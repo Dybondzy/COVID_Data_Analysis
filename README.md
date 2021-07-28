@@ -715,12 +715,12 @@ I do not see a grade yet
 ### Delivery 4 continued
 
 #### SQL final steps for the database, including calculating the ratios for Tableau
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL_steps.txt]
+
+#### The Python file for the ML analysis (written by a group member:)
 []
 
-#### The Python file for the ML analysis:
-[]
-
-#### The Tableau output
+#### The Tableau output  (written by a group member:)
 []
 
 ##### My added Tableau analysis:
