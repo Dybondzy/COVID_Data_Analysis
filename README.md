@@ -718,7 +718,7 @@ I do not see a grade yet
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL_steps.txt]
 
 #### The Python file for the ML analysis (written by a group member:)
-[]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/covid_ml_ratios.ipynb]
 
 #### The Tableau output  (written by a group member:)
 []
