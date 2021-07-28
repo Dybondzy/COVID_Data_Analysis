@@ -447,6 +447,8 @@ When you select marks in the view, all other marks are dimmed to draw attention 
 We have also created a simple HTML file to show the dashboard in a dedicated webpage with another interactive element where users can download the analysis into PDF file. 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #### OBSERVATIONS:
 
@@ -708,9 +710,24 @@ Michael Leggett  1:54 PM
 I do not see a grade yet
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Delivery 4 continued
 
+#### SQL final steps for the database, including calculating the ratios for Tableau
+[]
+
+#### The Python file for the ML analysis:
+[]
+
+#### The Tableau output
+[]
+
+##### My added Tableau analysis:
+[]
 ----------------
+
+## Final Group ReadME file:
 
 
 
