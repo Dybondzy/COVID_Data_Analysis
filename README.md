@@ -1,5 +1,8 @@
 # COVID_Data_Analysis
 
+# At the end of the George Washington / Trilogy 6 month Boot Camp course, we were divided into groups, for project work.  Here is my analysis of the Brilliant Project Experience
+
+
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
 The Project Deliverables were in 4 segments
 
