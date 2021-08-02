@@ -1,6 +1,6 @@
 # COVID_Data_Analysis
 
-## At the end of the George Washington / Trilogy 6 month Boot Camp course, we were divided into groups, for project work.  Here is my analysis of the Brilliant Project Experience
+## At the end of the George Washington / Trilogy Boot Camp course, we were divided into groups, for project work.  Here is my analysis of the Brilliant Project Experience
 
 
 # Project Definition:
