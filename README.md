@@ -7,10 +7,13 @@
 
 
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
-The Project Deliverables were in 4 segments
+
 
 ## First Segment: 
 Sketch It Out: Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
+
+
+# Project Execution:
 
 ### Project Overview
 Our Group 4 has 6 members.  We had our first meeting in a breakout room, in class (on zoom.)  We bainstormed on several topics.  2 of the group members had already discussed crytocurrencies, and a few other topics were discussed.  I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  David went ahead and created a Githud ripository for our group, and we jotted down some questions that we wanted out project to answer.  It was agreed we would like policy makers to use our data to make management decisions if a similar pandemic was to break out.  We also decided to scrape the net for data collection.
@@ -53,11 +56,8 @@ https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Dat
 https://worldpopulationreview.com/states/state-abbreviations (for states)
 
  
-Project Delivery 1 was the above 
-
 
 --------------------------------------------------
-# Project Execution:
 
 ### My Personal work
 In order for me to undertand the project scope and the points that have to be covered in the project: 
