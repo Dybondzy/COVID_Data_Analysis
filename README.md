@@ -3,6 +3,9 @@
 # At the end of the George Washington / Trilogy 6 month Boot Camp course, we were divided into groups, for project work.  Here is my analysis of the Brilliant Project Experience
 
 
+# Project Definition:
+
+
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
 The Project Deliverables were in 4 segments
 
@@ -54,7 +57,7 @@ Project Delivery 1 was the above
 
 
 --------------------------------------------------
-
+# Project Execution:
 
 ### My Personal work
 In order for me to undertand the project scope and the points that have to be covered in the project: 
@@ -164,6 +167,8 @@ The output file from our analysis:
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Group Project Delivery:
 
 # Coronavirus Pandemic Playbook
 _A Project by: David Watson, Dinah Bondzie, Michael Leggett, Kimi Ellerbe, Jack Gross, Yodit Teamir_
