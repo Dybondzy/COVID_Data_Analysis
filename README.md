@@ -23,25 +23,21 @@ GitHub Repository (10 points)
 
 Main Branch
 The main branch should include:
-
 README.md
 
-
-README.md
+README.md:
 The README.md should include:
-
-Description of the communication protocols
-Individual Branches
+Description of the communication protocols,
+Individual Branches.
 
 Requirements for the individual branches follow:
-
-At least one branch for each team member
-Each team member has at least four commits for the duration of the first segment
+At least one branch for each team member,
+Each team member has at least four commits for the duration of the first segment.
 
 Machine Learning Model (35 points)
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
-Takes in data from the provisional database
+Takes in data from the provisional database,
 Outputs label for input data
 
 Database Integration (25 points)
@@ -62,55 +58,49 @@ Presentation (15 points)
 Content
 The presentation outlines the project, including the following:
 
-Selected topic
-Reason topic was selected
-Description of the source of data
-Questions the team hopes to answer with the data
-Description of the data exploration phase of the project
-Description of the analysis phase of the project
+Selected topic:
+Reason topic was selected,
+Description of the source of data,
+Questions the team hopes to answer with the data,
+Description of the data exploration phase of the project,
+Description of the analysis phase of the project.
 
-Slides
+Slides (or GitHub ReadME)
 Presentations are drafted in Google Slides.
 
 GitHub Repository (10 points)
 
-Main Branch
+Main Branch:
 All code in the main branch is production-ready.
 
 The main branch should include:
-
-All code necessary to perform exploratory analysis
-Some code necessary to complete the machine learning portion of project
+All code necessary to perform exploratory analysis,
+Some code necessary to complete the machine learning portion of project,
 README.md
 
 README.md should include:
+Description of the communication protocols,
+Outline of the project (this may include images, but they should be easy to follow and digest,)
+Individual Branches.
 
-Description of the communication protocols
-Outline of the project (this may include images, but they should be easy to follow and digest)
-
-Individual Branches
 Requirements for the individual branches follow:
-
 At least one branch for each team member
 Each team member has at least four commits for the duration of the second segment (eight total commits per person)
 
 Machine Learning Model (30 points)
-
 The team members are expected to submit the code for the machine learning model, as well as the following:
-
-Description of preliminary data preprocessing
-Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
-Description of how data was split into training and testing sets
-Explanation of model choice, including limitations and benefits
+Description of preliminary data preprocessing, 
+Description of preliminary feature engineering and preliminary feature selection, including the decision-making process, 
+Description of how data was split into training and testing sets, 
+Explanation of model choice, including limitations and benefits.
 
 Database Integration (30 points)
 The team members are expected to present a fully integrated database, including the following:
-
-Database stores static data for use during the project
-Database interfaces with the project in some format (e.g., scraping updates the database)
-Includes at least two tables (or collections, if using MongoDB)
-Includes at least one join using the database language (not including any joins in Pandas)
-Includes at least one connection string (using SQLAlchemy or PyMongo)
+Database stores static data for use during the project,
+Database interfaces with the project in some format (e.g., scraping updates the database,)
+Includes at least two tables (or collections, if using MongoDB,)
+Includes at least one join using the database language (not including any joins in Pandas,)
+Includes at least one connection string (using SQLAlchemy or PyMongo.)
 
 
 
@@ -122,11 +112,11 @@ Content
 The presentation tells a story about the project and includes the following:
 
 Selected topic
-Reason topic was selected
-Description of the source of data
-Questions the team hopes to answer with the data
-Description of the data exploration phase of the project
-Description of the analysis phase of the project
+Reason topic was selected,
+Description of the source of data,
+Questions the team hopes to answer with the data,
+Description of the data exploration phase of the project,
+Description of the analysis phase of the project.
 
 Technologies, languages, tools, and algorithms used throughout the project
 
