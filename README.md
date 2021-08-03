@@ -454,9 +454,9 @@ Note: We used ML to eliminate the "any possible Unknown" in sex and agegroup.
       We also noticed that not many states chose to respond on the race of covid victims
 
 I aggregated our findings by state, with SQL.  This is where tables were linked with Inner and Left joins and created with Pivots, and all possible nulls were counted as zero
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.csv]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.csv][https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part3.csv]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part4.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.zip][https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part3.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part4.zip]
 
 
 #### Table 2
@@ -469,7 +469,7 @@ The Population Density was: Total State population, over the State land are by s
 
 #### Table 3
 We also had data on the number of airports in the states, the state land area in square miles, and its ration to the airport area
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Group4 Airport By Area.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Group4%20Airport%20By%20Area.csv]
 
 #### Table 4
 We had data on the average income of each state
