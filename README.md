@@ -128,16 +128,14 @@ Main Branch
 All code in the main branch is production-ready.
 
 main branch should include:
-
-All code necessary to perform exploratory analysis
-Most code necessary to complete the machine learning portion of the project
+All code necessary to perform exploratory analysis,
+Most code necessary to complete the machine learning portion of the project,
 README.md
 
 README.md should include:
-
-Description of the communication protocols has been removed
-Cohesive, structured outline of the project (this may include images, but they should be easy to follow and digest)
-Link to Google Slides draft presentation
+Description of the communication protocols has been removed,
+Cohesive, structured outline of the project (this may include images, but they should be easy to follow and digest,)
+Link to Google Slides draft presentation.
 
 Note: The descriptions and explanations required in the project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
 
