@@ -316,12 +316,15 @@ We had our first meeting in a breakout room, in class (on zoom.)
 
 ####  I. Decide on your overall project:
 
-We bainstormed on several topics.  2 of the group members suggested an already discussed topic of crytocurrency, which we were leaning on.  After Nick, the course instructor asked us some questions, we decided to think up other topics.
+We bainstormed on several topics.  
+Two of the group members suggested the topic of: Crytocurrency, and their reason for the choice convinced us.  After Nick, the course instructor, asked us some questions, we decided to think of other topics, as well.
 Now, I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  
-After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  
-One member created a Slack Group 4 for us, and another created a Githud ripository for our group.
-We jotted down some questions that we wanted out project to answer.  We agreed we would like policy makers to use our data to make management decisions, should a similar pandemic break out again.  
-We also decided to scrape the net for data collection.
+After some deliberation, everyone had curious questions on the topic, and agreed that to make our topic: Coronavirus Pandemic Playbook.  
+One member created a Slack Group 4 for us, another created a Githud ripository for our group, and I posted our topic in the ReadMe in Github and in our slack group.
+We jotted down some questions that we wanted our project to answer.  
+We agreed we would like policy makers to use our data to make management decisions, in any possible future pandemic outbreak.  
+We also decided to scrape the net for data collection on the COVID Pandemic.
+We also noted that our questions on the topic could change.
 
 
 ##### II.`Select your question
@@ -366,7 +369,7 @@ https://worldpopulationreview.com/states/state-abbreviations (for states)
 
 #### IV: Prototype your idea
 
-In order for me to better undertand the project and the points that have to be covered in the project, I need to create a prototype of the requirements: 
+In order for me to better undertand the project and the points that have to be covered in the project, I needed to create a prototype of the requirements: 
 
 A. I download summary national covid totals data from cdc
    [https://covidtracking.com/data/download]
@@ -403,25 +406,26 @@ I made sure the following ruberic points were covered:
   -   Use database integration (Postgres, MongoDB, or SQLite) to store your cleaned data. 
   -   Implement machine learning to enhance your topic. 
   -   Your work will need a showcase—use tools such as Tableau or JavaScript to build a dashboard to present your results. 
-  -   Database stores static data for use during the project Database interfaces with the project in some format (e.g., scraping updates the database) Includes at least two 
-      tables (or collections, if using MongoDB) Includes at least one join using the database language (not including any joins in Pandas) Includes at least one connection      
-      string (using SQLAlchemy or PyMongo) IMPORTANT If you use a SQL database, you must provide your ERD with relationships.
+  -   Database stores static data for use during the project Database interfaces with the project in some format (e.g., scraping updates the database) 
+  -   Includes at least two tables (or collections, if using MongoDB) 
+  -   Includes at least one join using the database language (not including any joins in Pandas) 
+  -   Includes at least one connection string (using SQLAlchemy or PyMongo) IMPORTANT If you use a SQL database, you must provide your ERD with relationships.
 
 I uploaded the work I had done, to my branch of the GitHub repository and in our project slack group, explaining what I had done.
-The reaction of the group was to call for zoom meeting the following data, to discuss the project scope
+The reaction of the group was to call for a zoom meeting to discuss the project scope and dataset.  I scheduled this and all our zoom meetings.
 
 
 ### Response to Prototype
 
-We changed the following:
--   The data source to a different CDC file
+We discussed the following:
+-   Changing the data source to a different CDC file
 -   We agreed to do some more net scraping for polital and religious data
--   We changed the date range from: January 2020 to July 2021, to March 2020 to March 2021
--   We agreed that all data should have the US States in ach file
+-   We changed the date range from: January 2020 to July 2021, to March 2020 to December 2020
+-   We agreed that all data should have the US States in each file
 -   We agreed to meet the following day to share our findings
 -   We deligated chores:
--      One person chose to work on the Machine Language (covering: Interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
--      One chose to document the ReadME in Github and be Project Leader
+-      One person chose to work on the Machine Language (covering: Interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model))
+-      One chose to document the ReadME in Github and be Project Leader.  This person would pull together the processes into one cohesive story.
 -      One chose to work on the Data Dictionary and to make sure every process was thoroughly explained to everyone in the group
 -      Two chose to work on the dashboard
 -      I chose to work on the database and SQL, covering the following requirements:
@@ -448,6 +452,9 @@ The data was for the dates of March 2020 to December 2020
 The data was too big, so we split it into for 4
 The data contained the US States, the Agegroups of those with COVID, the sex of those with COVID, and the race of those with COVID
 I uploaded the data in PostgreSQL in PGAdmin.
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.zip][https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part3.zip]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part4.zip]
 
 We noticed that the categories for
 Sex was: MALE, FEMALE, any possible Unknown
@@ -462,22 +469,20 @@ Race: Black, White, Asian, Multiple/Other, American Indian/Alaska Native, Native
 Note: We used ML to eliminate the "any possible Unknown" in sex and agegroup.
       We also noticed that not many states chose to respond on the race of covid victims
 
-I aggregated our findings by state, with SQL.  This is where tables were linked with Inner and Left joins and created with Pivots, and all possible nulls were counted as zero
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.zip]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.zip][https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part3.zip]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part4.zip]
+I aggregated our findings by state, with SQL.  
+This is where tables were linked with Inner and Left joins and created with Pivots, and all possible nulls were counted as zero.
 
 
 #### Table 2
 We also had Census data for each state.  We had total population by state, total population by age group, total population by sex (M/F.)
-I uploaded the Census data into PGAdmin and calculated ratios, or Target Variable, and the Population Density.
+I uploaded the Census data into PGAdmin and calculated ratios, Target Variable, and the Population Density.
 Our Target Variable for each State was: Total number of COVID patients, over the State population
 The Population Density was: Total State population, over the State land are by square miles
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_age_no_covid.csv]
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_sex_no_covid.csv]
 
 #### Table 3
-We also had data on the number of airports in the states, the state land area in square miles, and its ration to the airport area
+We also had data on the number of airports in the states, the state land area in square miles, and the airport area ration to the land area
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Group4%20Airport%20By%20Area.csv]
 
 #### Table 4
@@ -485,7 +490,7 @@ We had data on the average income of each state
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/household_income_by_state.csv]
 
 #### Table 5
-We had data per state on pollitical and social issued:
+We had data per state on pollitical and social issues:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/state_factors_from_gallup.csv]
 
 
@@ -495,8 +500,11 @@ We had data per state on pollitical and social issued:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL%20EXPAND%20TABLE.txt]
 
 
-The final table was ready for more ML analysis and the dashboard
+The final table was ready for more ML analysis, the dashboard analysis, and the GitHub documentation
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/COVID_MARCH2020_DEC2020_TOTALS_PROJECT4.csv]
+
+
+The following was our final output:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
