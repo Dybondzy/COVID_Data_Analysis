@@ -307,7 +307,7 @@ II.  Select your question, and
 III. Build a simple model. 
 IV.  You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
 
-Our Group 4 has 6 members:
+Our Group 4 of 6 members, in the Data Analysis Course:
 We had our first meeting in a breakout room, in class (on zoom.)  
 
 I. Decide on your overall project:
