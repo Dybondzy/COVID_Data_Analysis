@@ -277,6 +277,9 @@ Either the dashboard is published or the submission includes a screen capture vi
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
 
 ## My Perspective
+
+### My Initiation
+
 Throughtout the bootcamp, I mainly stuck with a teaching assistant (TA) Zeb.  This allowed me to know how he teaches and to best respond to it.  He insisted that with each assignment, that I point out what is required, and answer them with the given material.  Throughout the course, we worked on different data analysis concepts and languages including: 
 ● Employ statistical analysis to model, predict, and forecast trends.
 ● Build VBA scripts in Excel to automate tedious manual processes.
@@ -413,23 +416,30 @@ We changed the following:
 -      One chose to work on the Data Dictionary and to make sure every process was thoroughly explained to everyone in the group
 -      Two chose to work on the dashboard
 -      I chose to work on the database and SQL, covering the following requirements:
+       + Stores static data for use during the project
+       + Interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+       + Includes at least two tables (or collections if using MongoDB)
+       + Includes at least one join using the database language (not including any joins in Pandas)
+       + Includes at least one connection string (using SQLAlchemy or PyMongo)
+       + Provide Entity Relationship Diagran (ERD) with relationships
 
-------------------------------------------------------------------------------------------------------------------------
-Stores static data for use during the project
-Interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
-Includes at least two tables (or collections if using MongoDB)
-Includes at least one join using the database language (not including any joins in Pandas)
-Includes at least one connection string (using SQLAlchemy or PyMongo)
-Provide Entity Relationship Diagran (ERD) with relationships
 
 I used the following Python code to do some more cleaning:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Clean_Covid_19_Pandemic_Data.ipynb]
 and came up with this table for analysis:
 https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_database_cleaned.csv
 
-The
 
-Note:
+
+### Working as a group
+
+#### Table 1
+After a few rounds, we got a CDC database that we agreed on.
+The data was for the dates of March 2020 to March 2021
+The data was too big, so we split it into for 4
+The data contained the US States, the Agegroups of those with COVID, the sex of those with COVID, and the race of those with COVID
+I uploaded the data in PostgreSQL in PGAdmin.
+
 We noticed that the categories for
 Sex was: MALE, FEMALE, any possible Unknown
 [https://github.com/Dybondzy/Covid_19_Pandemic_Must_Know/blob/main/SEX.csv]
@@ -440,12 +450,41 @@ Age group: 0 - 17 years, 18 to 49 years, 50 to 64 years, 65+ years, any possible
 Race: Black, White, Asian, Multiple/Other, American Indian/Alaska Native, Native Hawaiian/Other Pacific Islander, any possible Unknown
 [https://github.com/Dybondzy/Covid_19_Pandemic_Must_Know/blob/main/RACE.csv
 
+Note: We used ML to eliminate the "any possible Unknown" in sex and agegroup.
+      We also noticed that not many states chose to respond on the race of covid victims
 
-The SQL steps is documented in:
+I aggregated our findings by state, with SQL.  This is where tables were linked with Inner and Left joins and created with Pivots, and all possible nulls were counted as zero
+
+
+#### Table 2
+We also had Census data for each state.  We had total population by state, total population by age group, total population by sex (M/F.)
+I uploaded the Census data into PGAdmin and calculated ratios, or Target Variable, and the Population Density.
+Our Target Variable for each State was: Total number of COVID patients, over the State population
+The Population Density was: Total State population, over the State land are by square miles
+
+
+#### Table 3
+We also had data on the number of airports in the states, the state land area in square miles, and its ration to the airport area
+
+
+#### Table 4
+We had data on the average income of each state
+
+
+#### Table 5
+We had data per state on:
+State Policy Prevention Mandates Score
+ Trump approval 
+![image](https://user-images.githubusercontent.com/79281335/127946178-05c0470e-10dc-47c2-aa7d-db85c106bd24.png)
+
+
+
+
+#### The SQL steps is documented in:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL.txt]
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL%20EXPAND%20TABLE.txt]
 
-This is the table we had for presentation of Deliverable 2:
+This is the table we had for presentation:
 
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.png]
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20data%20in%20PGADMIN.png]
@@ -453,11 +492,7 @@ This is the table we had for presentation of Deliverable 2:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/EXTRACT%20DATA%20FROM%20INPUT%20TABLE%20AND%20INSERT%20VALUES%20IN%20OUTPUT%20TABLE.png]
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/OUTPUT%20TABLE%20of%20SUMMARY.png]
 
-Comment:
-What did I notice in the presentation:  David made the presentation as Project Manager and referred to Michael throughout as having discussions with him.  David made some references to Kimi and Jack, also contributing to the project.  I clearly noticed my name was left out.  This, I pointed out at our next Project 3 Group zoom meeting.  David's reaction was to ask me to do the presentation.  What I meant to say is that, mention my name as part of the group.  (I noticed that this never happened.  I noted it and moved on.  At least the stakeholders (project members,) have "bought into the idea.")
 
-
-Then, Michael sent me these files:  for Deliverable 3:
 
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.zip]
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.zip]
