@@ -299,15 +299,15 @@ I had plenty practice throughout the course, with the TA guidance.
 
 ## First Segment: 
 Sketch It Out: 
-A. Decide on your overall project, 
-B. Select your question, and 
-C. Build a simple model. 
-D. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
+I. Decide on your overall project, 
+II. Select your question, and 
+III. Build a simple model. 
+IV. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
 
 Our Group 4 has 6 members:
 We had our first meeting in a breakout room, in class (on zoom.)  
 
-A:
+I. Decide on your overall project:
 We bainstormed on several topics.  2 of the group members suggested an already discussed topic of crytocurrency, which we were leaning on.  After Nick, the course instructor asked us some questions, we decided to think up other topics.
 Now, I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  
 After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  
@@ -315,7 +315,9 @@ One member created a Slack Group 4 for us, and another created a Githud riposito
 We jotted down some questions that we wanted out project to answer.  We agreed we would like policy makers to use our data to make management decisions, should a similar pandemic break out again.  
 We also decided to scrape the net for data collection.
 
-B: Questions to answer
+
+II. Select your question
+Questions to answer:
 We agreed and documented the following questions, in the README file in our Github repository:
 [https://github.com/dwwatson1/coronavirus_pandemic_playbook]
 
@@ -354,15 +356,17 @@ https://worldpopulationreview.com/states/state-abbreviations (for states)
 
  
 
---------------------------------------------------
+IV: Prototype your idea
 
-### My Personal work
-In order for me to undertand the project scope and the points that have to be covered in the project: 
+In order for me to better undertand the project and the points that have to be covered in the project, I need to create a prototype of the requirements: 
 
 A. I download summary national covid totals data from cdc
    [https://covidtracking.com/data/download]
    It was data from January 2020 to July 2021
    
+   
+III. Build a simple model
+
 B. Used machine learning on Colab, to clean out the data (eliminating some column with very little data)
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Covid_19_Pandemic_Must_Know.ipynb]
    using the csv file: all_states_history.csv
@@ -370,12 +374,15 @@ B. Used machine learning on Colab, to clean out the data (eliminating some colum
    to create the csv file: cleaned_states_history.csv
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cleaned_states_history.csv]
    
+   
+IV. You'll connect the model to a fabricated database, using comma-separated values (CSV)
 
 C. Used Postgres in PGAdmin to create summmary data and come up with the output csv
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/JAN2020_JUL2021_COVIDDEATH_CONTRIBUTERS.csv]
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/JAN2020_JUL2021_COVIDDEATH_BYSTATES.csv]
    After joining the data with data on: States in the US from
    [https://worldpopulationreview.com/states/state-abbreviations]
+   
    
 D. I went into Tableau and created some graphs
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/all_states_history_graph.png]
@@ -392,55 +399,35 @@ I made sure the following ruberic points were covered:
       tables (or collections, if using MongoDB) Includes at least one join using the database language (not including any joins in Pandas) Includes at least one connection      
       string (using SQLAlchemy or PyMongo) IMPORTANT If you use a SQL database, you must provide your ERD with relationships.
 
+I uploaded the work I had done, to my branch of the GitHub repository and in our project slack group, explaining what I had done.
+The reaction of the group was to call for zoom meeting the following data, to discuss the project scope
+We changed the following:
+-   The data source to a different CDC file
+-   We agreed to do some more net scraping for polital and religious data
+-   We changed the date range from: January 2020 to July 2021, to March 2020 to March 2021
+-   We agreed that all data should have the US States in ach file
+-   We agreed to meet the following day to share our findings
+-   We deligated chores:
+-      One person chose to work on the Machine Language (covering: Interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+-      One chose to document the ReadME in Github and be Project Leader
+-      One chose to work on the Data Dictionary and to make sure every process was thoroughly explained to everyone in the group
+-      Two chose to work on the dashboard
+-      I chose to work on the database and SQL, covering the following requirements:
 
- 
- Then I shared the work I had done with the group, calling for discussion.  Reaction called for a zoom meeting (which I quickly scheduled)
- -    Everyone seemed to want to change the data
- -    We searched the net for more data; scraping
- -    We aggreed on CDC data and I downloaded the data while we discussed it
- -    We agreed that our searches have to include US STATES
- -    We updated Github of the search data (David and Kimi updated the sites for data and Michael updated the Machine Learning section)
-
-
-----------
-Description of data preprocessing
-Description of feature engineering and the feature selection, including the team's decision-making process
-Description of how data was split into training and testing sets
-Explanation of model choice, including limitations and benefits
-Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
-Description of how the model was trained (or retrained if the team used an existing model)
-Description and explanation of model's confusion matrix, including final accuracy score
-Additionally, the model obviously addresses the question or problem the team is solving.
-
-
-Note: If statistical analysis is not included as part of the current analysis, the team should add a description of how it would be included in the next phases of the project.
-
-Database Integration (25 points)
-Just as you did for the machine learning model, you'll create a mockup or "dummy" database during the first segment of your project to make sure the model works. This mockup will follow the format of the expected database, but it will be simpler and likely in a CSV or JSON format.
-
-For your final segment, you'll present a project with a fully integrated database, with the following features:
-
+------------------------------------------------------------------------------------------------------------------------
 Stores static data for use during the project
 Interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
 Includes at least two tables (or collections if using MongoDB)
 Includes at least one join using the database language (not including any joins in Pandas)
 Includes at least one connection string (using SQLAlchemy or PyMongo)
-
-Note: If you use a SQL database, you must provide your Entity Relationship Diagram (ERD) with relationships.
-
-----------
+Provide Entity Relationship Diagran (ERD) with relationships
 
 I used the following Python code to do some more cleaning:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Clean_Covid_19_Pandemic_Data.ipynb]
 and came up with this table for analysis:
 https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_database_cleaned.csv
 
-Reaction: 
-Kimi, David, and Michael were upset about the dates used (Jan 2020 to Jul 2020)
-They preferred March 2020 to March 2021, and only wanted to work on data on MD
-Michael came up with the table: , for our class presentation
-Michael and Kimi created / imported a data dictionary into the ReadME file on our group Github repository
-Nick commented that the table was too small and had some questions for Michael on the Machine Learning
+The
 
 Note:
 We noticed that the categories for
