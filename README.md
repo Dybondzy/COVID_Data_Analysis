@@ -278,7 +278,7 @@ Either the dashboard is published or the submission includes a screen capture vi
 
 ## My Perspective
 
-### My Initiation
+### I created a Prototype
 
 Throughtout the bootcamp, I mainly stuck with a teaching assistant (TA) Zeb.  This allowed me to know how he teaches and to best respond to it.  He insisted that with each assignment, that I point out what is required, and answer them with the given material.  Throughout the course, we worked on different data analysis concepts and languages including: 
 ● Employ statistical analysis to model, predict, and forecast trends.
@@ -322,7 +322,6 @@ We also decided to scrape the net for data collection.
 II. Select your question
 Questions to answer:
 We agreed and documented the following questions, in the README file in our Github repository:
-[https://github.com/dwwatson1/coronavirus_pandemic_playbook]
 
 =  What is the population per state at the beginning and end of the pandemic?
  
@@ -485,35 +484,9 @@ We had data per state on pollitical and social issued:
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL.txt]
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL%20EXPAND%20TABLE.txt]
 
-This is the table we had for presentation:
 
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20csv%20file.png]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/MD_CLEANED%20data%20in%20PGADMIN.png]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/CREATE%20INPUT%20TABLE.png]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/EXTRACT%20DATA%20FROM%20INPUT%20TABLE%20AND%20INSERT%20VALUES%20IN%20OUTPUT%20TABLE.png]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/OUTPUT%20TABLE%20of%20SUMMARY.png]
-
-
-
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.zip]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.zip]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part3.zip]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part4.zip]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_age_no_covid.csv]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_sex_no_covid.csv]
-
-Jack and Kimi and Michael added some downloaded data from from CDC
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Group4%20Airport%20By%20Area.csv]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/household_income_by_state.csv]
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/state_factors_from_gallup.csv]
-
-At this point, we had data for Tableau Dashboards and further machine learning analysis 
-Yodit and Jack did some work in Tableau
-Michael did some neat data analysis in Machine Learning that we were all impressed and anxious to present at our next class meeting.
-
-The output file from our analysis:
-[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/COVID_MARCH2020_DEC2020_TOTALS_PROJECT4.csv]
-
+The final table was ready for more ML analysis and the dashboard
+[]
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -994,11 +967,14 @@ In the outset of the project, we decided our audience would be state lawmakers. 
 
 Our aggregated model was a great way to address our question of looking at the spread of COVID in the United States but it suffered from too few observations. The exploratory model of looking at individual cases was good in theory, fixing the problem of too few observations, but suffered from random pairings in the feature engineered data, requiring an extreme amount of resources, and restricting the amount of features we can have. We can therefore suggest that if we want to create a more accurate and efficient model, the data should be aggregated by U.S. county. This fixes the faults of the aggregated model by state by allowing for more observations, and it also fixes the faults of the model by individual cases by keeping the data aggregated (removing the need for feature engineered data) and using less resources. We could also run independent analysis on each state by using their counties as observations.
 
+
+
 ### Future Projects
 
 * **Add vaccine data.** The data we used only accounted for the spread of COVID-19 from March - December 2020. If we picked up from where we left off and looked at all of 2021, we could run our model for the spread of COVID-19 as individuals were getting vaccinated. We would keep mostly the same factors but redefine the state policy prevention mandate score to measure the days between relaxing a mask mandate or recommendation and reinstating it. For example, on July 29, DC announced it will reinstate its mask mandate indoors. We would also need to add new columns for **vaccine** or **no vaccine** and potentially study breakthrough cases of COVID-19 (vaccinated person contracts COVID-19). This is still an evolving and challenging virus. 
 * **Study COVID-19 spread in regions across the world** In our analysis, we found state policy prevention mandate score as the top factor for determining the spread of COVID-19. Would this be similar in states or regions in Mexico or Australia, for example. We would like to explore similar factors in countries with different governemtn COVID-19 responses. Australia had one of the most severe travel restrictions for entering and leaving the country but no intial lockdown or mask mandate or recommendation.  
 
+[https://github.com/dwwatson1/coronavirus_pandemic_playbook]
 
 
 # Project Reflection:
