@@ -1001,11 +1001,12 @@ Each one of us did a fantastic job.  We got 100% grade for meeting all the proje
 Michael, took us a step further in our Machine Language.  He took our enhanced our project deliverable.
 David, pulled all the documentation together cohesively and brilliantly, and delivered an excellent presententation, acknowledging each memeber of the group.
 Kimi, insisted that each process is thoroughly explained, so that each member of the group was knowledgeable of what was going on.
-Jodi and Jack, provided us with an exceptional dashboard of the COVID 19 effects, all over the USA
-I, Dinah, provided the excellent statis database, that was the bases of our project.  I also got us motivated to do better and kept our group focused on the goal of our project.
+Jodi and Jack, provided us with an exceptional dashboard of the COVID 19 effects, all over the USA.
+I, Dinah, provided the excellent static database, that was the bases of our project.  
+I also got us motivated to do better and kept our group focused on the goal of our project.
 I was amazed at how much I could do, when I applied all that we had learned in the bootcamp.
 
-When we were almost done with the project, in the last week, after a presentation of our project had opened up questions by instructor Nick, 2 of our group members decided to chane the database and the whole course of our work.  I asked if the whole group agreed on this change and if it covered our requirements.  Upon some deliberation, we decided to not replace all the work we had done, but to add on and enhance the work we had already done.  All our work ended well.
+When we were almost done with the project, in the last week, after a presentation of our project had opened up questions by instructor Nick, 2 of our group members decided to change the database and the whole course of our work.  My concern was if the whole group agreed on this change and if the new data covered all the project requirements.  Upon some deliberation, we decided to not replace all the work we had done, within the time limit.  We agree to add on and enhance the work we had already done.  All is well that ends well.
 
 I appreciate my TA Zeb for his patience in teaching and guiding me, the Trilogy Bootcamp program, and the friends I made during the course.
 
