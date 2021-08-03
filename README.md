@@ -272,19 +272,50 @@ At least one interactive element,
 Either the dashboard is published or the submission includes a screen capture video of it in action.
 
 
+# Project Process of Execution:
+
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
 
+## My Perspective
+Throughtout the bootcamp, I mainly stuck with a teaching assistant (TA) Zeb.  This allowed me to know how he teaches and to best respond to it.  He insisted that with each assignment, that I point out what is required, and answer them with the given material.  Throughout the course, we worked on different data analysis concepts and languages including: 
+● Employ statistical analysis to model, predict, and forecast trends.
+● Build VBA scripts in Excel to automate tedious manual processes.
+● Use real-world data sources to showcase social, financial, and political phenomena.
+● Create Python-based scripts to automate the clean up, restructuring, and rendering of large,
+heterogeneous datasets.
+● Interact with RESTful APIs using Python Requests and JSON parsing techniques.
+● Generate in-depth graphs, charts, and tables using a wide variety of data-driven programming
+languages and libraries.
+● Use geographic data to create visually exciting, interactive, and informative maps.
+● Build custom interactive data visualizations using JavaScript libraries.
+● Write SQL commands to perform, create, read, update, and delete (CRUD) operations.
+● Use advanced SQL and Mongo techniques to combine multiple datasets into more
+comprehensive databases.
+● Create basic interactive websites and applications to showcase your work to outside audiences.
+● Construct web applications and visual datasets with a variety of charts.
+● Scrape information from webpages in order to collect data from a broad range of online sources.
+● Glean and communicate new business insights using enterprise-grade tools like Tableau
+I had plenty practice throughout the course, with the TA guidance.
 
 ## First Segment: 
-Sketch It Out: Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
+Sketch It Out: 
+A. Decide on your overall project, 
+B. Select your question, and 
+C. Build a simple model. 
+D. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
 
+Our Group 4 has 6 members:
+We had our first meeting in a breakout room, in class (on zoom.)  
 
-# Project Execution:
+A:
+We bainstormed on several topics.  2 of the group members suggested an already discussed topic of crytocurrency, which we were leaning on.  After Nick, the course instructor asked us some questions, we decided to think up other topics.
+Now, I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  
+After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  
+One member created a Slack Group 4 for us, and another created a Githud ripository for our group.
+We jotted down some questions that we wanted out project to answer.  We agreed we would like policy makers to use our data to make management decisions, should a similar pandemic break out again.  
+We also decided to scrape the net for data collection.
 
-### Project Overview
-Our Group 4 has 6 members.  We had our first meeting in a breakout room, in class (on zoom.)  We bainstormed on several topics.  2 of the group members had already discussed crytocurrencies, and a few other topics were discussed.  I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  David went ahead and created a Githud ripository for our group, and we jotted down some questions that we wanted out project to answer.  It was agreed we would like policy makers to use our data to make management decisions if a similar pandemic was to break out.  We also decided to scrape the net for data collection.
-
-### Questions to answer
+B: Questions to answer
 We agreed and documented the following questions, in the README file in our Github repository:
 [https://github.com/dwwatson1/coronavirus_pandemic_playbook]
 
