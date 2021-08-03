@@ -302,10 +302,10 @@ I had plenty practice throughout the course, with the TA guidance.
 
 ## First Segment: 
 Sketch It Out: 
-I. Decide on your overall project, 
-II. Select your question, and 
+I.   Decide on your overall project, 
+II.  Select your question, and 
 III. Build a simple model. 
-IV. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
+IV.  You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
 
 Our Group 4 has 6 members:
 We had our first meeting in a breakout room, in class (on zoom.)  
@@ -434,7 +434,7 @@ https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_database_clea
 
 #### Table 1
 After a few rounds, we got a CDC database that we agreed on.
-The data was for the dates of March 2020 to March 2021
+The data was for the dates of March 2020 to December 2020
 The data was too big, so we split it into for 4
 The data contained the US States, the Agegroups of those with COVID, the sex of those with COVID, and the race of those with COVID
 I uploaded the data in PostgreSQL in PGAdmin.
@@ -486,7 +486,7 @@ We had data per state on pollitical and social issued:
 
 
 The final table was ready for more ML analysis and the dashboard
-[]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/COVID_MARCH2020_DEC2020_TOTALS_PROJECT4.csv]
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -986,4 +986,9 @@ Kimi, insisted that each process is thoroughly explained, so that each member of
 Jodi and Jack, provided us with an exceptional dashboard of the COVID 19 effects, all over the USA
 I, Dinah, provided the excellent statis database, that was the bases of our project.  I also got us motivated to do better and kept our group focused on the goal of our project.
 I was amazed at how much I could do, when I applied all that we had learned in the bootcamp.
+
+When we were almost done with the project, in the last week, after a presentation of our project had opened up questions by instructor Nick, 2 of our group members decided to chane the database and the whole course of our work.  I asked if the whole group agreed on this change and if it covered our requirements.  Upon some deliberation, we decided to not replace all the work we had done, but to add on and enhance the work we had already done.  All our work ended well.
+
+I appreciate my TA Zeb for his patience in teaching and guiding me, the Trilogy Bootcamp program, and the friends I made during the course.
+
 Thank You!
