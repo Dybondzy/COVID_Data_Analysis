@@ -454,6 +454,9 @@ Note: We used ML to eliminate the "any possible Unknown" in sex and agegroup.
       We also noticed that not many states chose to respond on the race of covid victims
 
 I aggregated our findings by state, with SQL.  This is where tables were linked with Inner and Left joins and created with Pivots, and all possible nulls were counted as zero
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part1.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part2.csv][https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part3.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cdc_db_cleaned_part4.csv]
 
 
 #### Table 2
@@ -461,22 +464,20 @@ We also had Census data for each state.  We had total population by state, total
 I uploaded the Census data into PGAdmin and calculated ratios, or Target Variable, and the Population Density.
 Our Target Variable for each State was: Total number of COVID patients, over the State population
 The Population Density was: Total State population, over the State land are by square miles
-
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_age_no_covid.csv]
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/census_sex_no_covid.csv]
 
 #### Table 3
 We also had data on the number of airports in the states, the state land area in square miles, and its ration to the airport area
-
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Group4 Airport By Area.csv]
 
 #### Table 4
 We had data on the average income of each state
-
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/household_income_by_state.csv]
 
 #### Table 5
-We had data per state on:
-State Policy Prevention Mandates Score
- Trump approval 
-![image](https://user-images.githubusercontent.com/79281335/127946178-05c0470e-10dc-47c2-aa7d-db85c106bd24.png)
-
+We had data per state on pollitical and social issued:
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/state_factors_from_gallup.csv]
 
 
 
