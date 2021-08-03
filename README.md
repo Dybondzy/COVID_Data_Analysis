@@ -301,16 +301,21 @@ comprehensive databases.
 I had plenty practice throughout the course, with the TA guidance.
 
 ## First Segment: 
-Sketch It Out: 
+
+### Sketch It Out: Requirment
+
 I.   Decide on your overall project, 
 II.  Select your question, and 
 III. Build a simple model. 
 IV.  You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
 
-Our Group 4 of 6 members, in the Data Analysis Course:
+### Sketch It Out: How we did it
+
+Our Group 4 of 6 members were coursemates of the Data Analysis BootCamp:
 We had our first meeting in a breakout room, in class (on zoom.)  
 
-I. Decide on your overall project:
+####  I. Decide on your overall project:
+
 We bainstormed on several topics.  2 of the group members suggested an already discussed topic of crytocurrency, which we were leaning on.  After Nick, the course instructor asked us some questions, we decided to think up other topics.
 Now, I have been curious about the effect of the COVID 19 Pandemic and lessons learned, so I suggested this topic.  
 After some deliberation, everyone had curious questions on the topic, and agreed that we make our topic: Coronavirus Pandemic Playbook.  
@@ -319,7 +324,8 @@ We jotted down some questions that we wanted out project to answer.  We agreed w
 We also decided to scrape the net for data collection.
 
 
-II. Select your question
+##### II.`Select your question
+
 Questions to answer:
 We agreed and documented the following questions, in the README file in our Github repository:
 
@@ -358,7 +364,7 @@ https://worldpopulationreview.com/states/state-abbreviations (for states)
 
  
 
-IV: Prototype your idea
+#### IV: Prototype your idea
 
 In order for me to better undertand the project and the points that have to be covered in the project, I need to create a prototype of the requirements: 
 
@@ -367,7 +373,7 @@ A. I download summary national covid totals data from cdc
    It was data from January 2020 to July 2021
    
    
-III. Build a simple model
+#### III. Build a simple model
 
 B. Used machine learning on Colab, to clean out the data (eliminating some column with very little data)
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Covid_19_Pandemic_Must_Know.ipynb]
@@ -377,7 +383,7 @@ B. Used machine learning on Colab, to clean out the data (eliminating some colum
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/cleaned_states_history.csv]
    
    
-IV. You'll connect the model to a fabricated database, using comma-separated values (CSV)
+#### IV. You'll connect the model to a fabricated database, using comma-separated values (CSV)
 
 C. Used Postgres in PGAdmin to create summmary data and come up with the output csv
    [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/JAN2020_JUL2021_COVIDDEATH_CONTRIBUTERS.csv]
@@ -403,6 +409,10 @@ I made sure the following ruberic points were covered:
 
 I uploaded the work I had done, to my branch of the GitHub repository and in our project slack group, explaining what I had done.
 The reaction of the group was to call for zoom meeting the following data, to discuss the project scope
+
+
+### Response to Prototype
+
 We changed the following:
 -   The data source to a different CDC file
 -   We agreed to do some more net scraping for polital and religious data
