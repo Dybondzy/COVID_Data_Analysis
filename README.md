@@ -1010,4 +1010,28 @@ When we were almost done with the project, in the last week, after a presentatio
 
 I appreciate my TA Zeb for his patience in teaching and guiding me, the Trilogy Bootcamp program, and the friends I made during the course.
 
+
+## What Next
+
+I hope to apply the work we did in this project, to COVID 19 data on the rest of the world.
+We know that from the USA: 
+  [(0.44178714821782483, 'covid_age_goup_0_17'),
+ (0.07412533360663463, 'POPULATION_DENSITY'),
+ (0.0737820324643414, 'covid_no_race'),
+...
+ (0.0006129858713567292, 'number_dont_eat_produce_frequently'),
+ (0.0004490797066645125, 'number_moderates'),
+ (0.0003891074311076836, 'number_insured')]
+  
+-  The COVID19 virus was spread mostly by the agegroup 0 to 17, who recovered quickly.
+-  The COVID19 virus was spread mostly in areas of dense population.
+-  THE COVID19 data recorders, mostly did not find a need to report the race of patients.
+-  The COVID19 virus spread the least among non produce eaters.  
+-  The COVID19 virus spread was least among the insured people.
+
+I wonder what the data from the other continents will say?  
+I know Africa is not as good at collecting data as the USA.  
+It will be interesting to see what the current COVID19 data on Africa, say aboout the continent.
+I wonder how African decisions makers will take the result of my further COVID19 data analysis.
+
 Thank You!
