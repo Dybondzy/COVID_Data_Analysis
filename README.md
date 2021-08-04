@@ -534,7 +534,7 @@ We know that from the USA:
  (0.0004490797066645125, 'number_moderates'),
  (0.0003891074311076836, 'number_insured')]
   
--  The COVID19 virus was spread mostly by the agegroup 0 to 17, who recovered quickly.
+-  The COVID19 virus was spread mostly by the age group 0 to 17, who recovered quickly.
 -  The COVID19 virus was spread mostly in areas of dense population.
 -  The COVID19 data recorders, mostly did not find a need to report the race of patients.
 -  The COVID19 virus spread the least among political moderates.
@@ -543,7 +543,7 @@ We know that from the USA:
 
 I wonder what the data from the other continents will say?  
 I know Africa is not as good at collecting data as the USA.  
-It will be interesting to see what the current COVID19 data on Africa, say aboout the continent.
+It will be interesting to see what the current COVID19 data on Africa will say aboout the continent.
 I wonder how African decisions makers will take the result of my further COVID19 data analysis.
 
 Thank You!
