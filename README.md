@@ -504,6 +504,54 @@ The final table was ready for more ML analysis, the dashboard analysis, and the 
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/COVID_MARCH2020_DEC2020_TOTALS_PROJECT4.csv]
 
 
+
+
+# Project Reflection:
+
+Each one of us did a fantastic job.  We got 100% grade for meeting all the project requirement.
+Michael, took us a step further in our Machine Language.  He took our enhanced our project deliverable.
+David, pulled all the documentation together cohesively and brilliantly, and delivered an excellent presententation, acknowledging each memeber of the group.
+Kimi, insisted that each process is thoroughly explained, so that each member of the group was knowledgeable of what was going on.
+Jodi and Jack, provided us with an exceptional dashboard of the COVID 19 effects, all over the USA.
+I, Dinah, provided the excellent static database, that was the bases of our project.  
+I also got us motivated to do better and kept our group focused on the goal of our project.
+I was amazed at how much I could do, when I applied all that we had learned in the bootcamp.
+
+When we were almost done with the project, in the last week, after a presentation of our project had opened up questions by instructor Nick, 2 of our group members decided to change the database and the whole course of our work.  My concern was if the whole group agreed on this change and if the new data covered all the project requirements.  Upon some deliberation, we decided to not replace all the work we had done, within the time limit.  We agree to add on and enhance the work we had already done.  All is well that ends well.
+
+I appreciate my TA Zeb for his patience in teaching and guiding me, the Trilogy Bootcamp program, and the friends I made during the course.
+
+
+## What Next
+
+I hope to apply the work we did in this project, to COVID 19 data on the rest of the world.
+We know that from the USA: 
+  [(0.44178714821782483, 'covid_age_goup_0_17'),
+ (0.07412533360663463, 'POPULATION_DENSITY'),
+ (0.0737820324643414, 'covid_no_race'),
+...
+ (0.0006129858713567292, 'number_dont_eat_produce_frequently'),
+ (0.0004490797066645125, 'number_moderates'),
+ (0.0003891074311076836, 'number_insured')]
+  
+-  The COVID19 virus was spread mostly by the agegroup 0 to 17, who recovered quickly.
+-  The COVID19 virus was spread mostly in areas of dense population.
+-  The COVID19 data recorders, mostly did not find a need to report the race of patients.
+-  The COVID19 virus spread the least among political moderates.
+-  The COVID19 virus spread the least among non produce eaters.  
+-  The COVID19 virus spread was least among the insured people.
+
+I wonder what the data from the other continents will say?  
+I know Africa is not as good at collecting data as the USA.  
+It will be interesting to see what the current COVID19 data on Africa, say aboout the continent.
+I wonder how African decisions makers will take the result of my further COVID19 data analysis.
+
+Thank You!
+
+
+
+
+
 The following was our final output:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -995,44 +1043,3 @@ Our aggregated model was a great way to address our question of looking at the s
 [https://github.com/dwwatson1/coronavirus_pandemic_playbook]
 
 
-# Project Reflection:
-
-Each one of us did a fantastic job.  We got 100% grade for meeting all the project requirement.
-Michael, took us a step further in our Machine Language.  He took our enhanced our project deliverable.
-David, pulled all the documentation together cohesively and brilliantly, and delivered an excellent presententation, acknowledging each memeber of the group.
-Kimi, insisted that each process is thoroughly explained, so that each member of the group was knowledgeable of what was going on.
-Jodi and Jack, provided us with an exceptional dashboard of the COVID 19 effects, all over the USA.
-I, Dinah, provided the excellent static database, that was the bases of our project.  
-I also got us motivated to do better and kept our group focused on the goal of our project.
-I was amazed at how much I could do, when I applied all that we had learned in the bootcamp.
-
-When we were almost done with the project, in the last week, after a presentation of our project had opened up questions by instructor Nick, 2 of our group members decided to change the database and the whole course of our work.  My concern was if the whole group agreed on this change and if the new data covered all the project requirements.  Upon some deliberation, we decided to not replace all the work we had done, within the time limit.  We agree to add on and enhance the work we had already done.  All is well that ends well.
-
-I appreciate my TA Zeb for his patience in teaching and guiding me, the Trilogy Bootcamp program, and the friends I made during the course.
-
-
-## What Next
-
-I hope to apply the work we did in this project, to COVID 19 data on the rest of the world.
-We know that from the USA: 
-  [(0.44178714821782483, 'covid_age_goup_0_17'),
- (0.07412533360663463, 'POPULATION_DENSITY'),
- (0.0737820324643414, 'covid_no_race'),
-...
- (0.0006129858713567292, 'number_dont_eat_produce_frequently'),
- (0.0004490797066645125, 'number_moderates'),
- (0.0003891074311076836, 'number_insured')]
-  
--  The COVID19 virus was spread mostly by the agegroup 0 to 17, who recovered quickly.
--  The COVID19 virus was spread mostly in areas of dense population.
--  The COVID19 data recorders, mostly did not find a need to report the race of patients.
--  The COVID19 virus spread the least among political moderates.
--  The COVID19 virus spread the least among non produce eaters.  
--  The COVID19 virus spread was least among the insured people.
-
-I wonder what the data from the other continents will say?  
-I know Africa is not as good at collecting data as the USA.  
-It will be interesting to see what the current COVID19 data on Africa, say aboout the continent.
-I wonder how African decisions makers will take the result of my further COVID19 data analysis.
-
-Thank You!
