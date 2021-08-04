@@ -1025,7 +1025,8 @@ We know that from the USA:
   
 -  The COVID19 virus was spread mostly by the agegroup 0 to 17, who recovered quickly.
 -  The COVID19 virus was spread mostly in areas of dense population.
--  THE COVID19 data recorders, mostly did not find a need to report the race of patients.
+-  The COVID19 data recorders, mostly did not find a need to report the race of patients.
+-  The COVID19 virus spread the least among political moderates.
 -  The COVID19 virus spread the least among non produce eaters.  
 -  The COVID19 virus spread was least among the insured people.
 
