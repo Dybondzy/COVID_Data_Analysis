@@ -701,7 +701,7 @@ Joining cleaned CDC data by state (see step 8 below):
 6. Using the table: _US_STATES_, we added all the tables with totals, and created the table: _COVID_MARCH2020_DEC2020_TOTALS_PROJECT4_
 7. Next, we joined all tables by **state** to input data from all tables to _COVID_MARCH2020_DEC2020_TOTALS_PROJECT4_. 
    - Please refer to the **first ERD image** for the visual of this process
-8. Simiarly, with the cleaned CDC_INPUTDB_CLEANED table mentioned in **step 2 and step 3**, we joined the tables by state and input the data to _COVID_MARCH2020_DEC2020_TOTALS_PROJECT4_ as well. 
+8. Similarly, with the cleaned CDC_INPUTDB_CLEANED table mentioned in **step 2 and step 3**, we joined the tables by state and input the data to _COVID_MARCH2020_DEC2020_TOTALS_PROJECT4_ as well. 
    - Please refer to the **second ERD image** for the visual of this process
 9. We exported our table _COVID_MARCH2020_DEC2020_TOTALS_PROJECT4_ from pgAdmin to the csv file: [COVID_MARCH2020_DEC2020_TOTALS_PROJECT4](https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/Resources/COVID_MARCH2020_DEC2020_TOTALS_PROJECT4.csv)
 
