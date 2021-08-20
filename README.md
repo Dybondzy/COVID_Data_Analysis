@@ -222,41 +222,16 @@ Group Interpretaion
 	-	Results:
 	-	[https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/Resources/results_ratio2.PNG]
 	-	[https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/Resources/results_ratio.PNG]
-	Data Analysis Results Model Prediction on Totals
-	-	 Mean Absolute Error: 0.01361384615384607
-	-	 Mean Squared Error: 0.00030726803076922677
-	-	 Root Mean Squared Error: 0.017529062461216424
 	Data Analysis Results Interpretation on Totals
 	-	 (0.44178714821782483, 'covid_age_goup_0_17'),
 	-	 (0.07412533360663463, 'POPULATION_DENSITY'),
 	-	 (0.0737820324643414, 'covid_no_race'),
-	-	 (0.05999787615511764, 'covid_race_white'),
-	-	 (0.0006949010126667388, 'number_not_worried_about_money'),
-	-	 (0.0006787818155410263, 'number_worried_about_money'),
-	-	 (0.0006592928196692134, 'total_noCOVID_ST_population'),
-	-	 (0.0006526498838199444, 'age_group_0_17_no_covid'),
 	-	 (0.0006129858713567292, 'number_dont_eat_produce_frequently'),
 	-	 (0.0004490797066645125, 'number_moderates'),
 	-	 (0.0003891074311076836, 'number_insured')
-	Data Analysis Results Model Prediction on Ratios
-	-	 Mean Absolute Error: 20.627341360000063
-	-	 Mean Squared Error: 457.3383627498949
-	-	 Root Mean Squared Error: 21.385470833018733
-	Data Analysis Results Interpretation on Ratios
-	-	 (0.7457184867448068, 'population_density'),
-	-	 (0.025338484696963405, 'covid_race_black_ratio'),
-	-	 (0.022993854105330568, 'state_land_area_sqmile'),
-	-	 (0.01686306814492053, 'number_dont_feel_community_recognition_ratio'),
-	-	 (0.01600301729498921, 'tot_airports'),
-	-	 (0.0155011819226828, 'number_feel_recognize_by_community_ratio'),
-	-	 (0.012795072577548352, 'sex_male_no_covid_ratio'),
-	-	 (0.011694900242513677, 'state_policy_prevention_mandates_score'),
-	-	 (0.009366277397534277, 'age_group_0_17_no_covid_ratio'),
-	-	 (0.0007132423903136261, 'people_who_dont_care_about_trump_ratio'),
-	-	 (0.0006931072411643876, 'number_no_political_ideology_ratio'),
-	-	 (0.000645138008414284, 'number_conservatives_ratio'),
-	-	 (4.389109648588667e-05, 'covid_race_native_hawaiian_other_pacific_ratio'),
- 	-	 (0.0, 'percent_uninsured_ratio')
+	-	 Which implies to me that Covid19 was spread most by the age group 0 to 17and in densly populated areas
+	-	 That record keepers didn't find it necesary to record the race of Covid19 patients
+	-	 Covid19 was spread the least among produce eaters, and moderates and those insured 
 
 
 
