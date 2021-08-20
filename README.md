@@ -213,7 +213,7 @@ Michael and David added to out Machine Learning Model
 
 
 ## Results
-15.	
+	
 Group Interpretaion
 	-	Accuracy:
 	-	[https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/Resources/accuracy_ratio2.PNG]
