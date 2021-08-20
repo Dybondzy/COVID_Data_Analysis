@@ -373,7 +373,7 @@ In order for me to better undertand the project and the points that have to be c
 
 A. I download summary national covid totals data from cdc
    [https://covidtracking.com/data/download]
-   It was data from January 2020 to July 2021
+   It was data from January 2020 to December 2020
    
    
 #### III. Build a simple model
