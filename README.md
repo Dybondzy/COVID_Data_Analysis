@@ -1,8 +1,11 @@
 # COVID 19 Must knows ... Coronavirus Pandemic Playbook
 
 
-## Presentation Name	Presenter Name	        University/College of Boot Camp	  Program
-## COVID 19 Must knows	DINAH Essilfie-Bondzie	George Washington University	  Data Analytics
+Presentation Name:                     	       COVID 19 Must knows	
+Presenter Name	                       	       Dinah Essilfie-Bondzie
+University/College of Boot Camp:	       George Washington University
+Program:	                               Data Analytics
+
 
 
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
@@ -245,4 +248,7 @@ Group Interpretaion
 ### SQL work done
 [https://github.com/Dybondzy/COVID_Data_Analysis/blob/Resources/Project%204%20Database%20SQL_steps.txt]
 
+
+### Future work
+I would be trying the same process with data from Africa and Europe, since I have lived there before
 
