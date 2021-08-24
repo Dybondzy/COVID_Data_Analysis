@@ -1,9 +1,14 @@
-# COVID_Data_Analysis
+# COVID 19 Must knows ... Coronavirus Pandemic Playbook
+
+
+## Presentation Name	Presenter Name	        University/College of Boot Camp	  Program
+## COVID 19 Must knows	DINAH Essilfie-Bondzie	George Washington University	  Data Analytics
+
 
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
 The Project Deliverables were in 4 segments
 
-# 25th August 2021 Demo Day:  Boot Camp Participant
+# Demo Day this Wednesday, August 25:  Boot Camp Participant
 # Data Analysis
 # Dinah Bondzie
 
