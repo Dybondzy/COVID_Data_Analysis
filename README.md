@@ -1,10 +1,10 @@
 # COVID 19 Must knows ... Coronavirus Pandemic Playbook
 
 
-Presentation Name:                     	       COVID 19 Must knows	
-Presenter Name	                       	       Dinah Essilfie-Bondzie
-University/College of Boot Camp:	       George Washington University
-Program:	                               Data Analytics
+Presentation Name:                     	       COVID 19 Must knows;		
+Presenter Name	                       	       Dinah Essilfie-Bondzie;	
+University/College of Boot Camp:	       George Washington University;	
+Program:	                               Data Analytics.	
 
 
 
