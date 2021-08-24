@@ -9,7 +9,6 @@
 
 
 # Demo Day this Wednesday, August 25:  Boot Camp Participant
-# Data Analysis
 # Dinah Bondzie
 
 
