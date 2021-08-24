@@ -5,7 +5,7 @@ Presentation Name:                     	       COVID 19 Must knows;
 Presenter Name	                       	       Dinah Essilfie-Bondzie;	
 University/College of Boot Camp:	       George Washington University;	
 Program:	                               Data Analytics.	
-
+[https://github.com/Dybondzy/COVID_Data_Analysis/blob/Images/George%20Washington%20University%20favicon.gif]
 
 
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
@@ -63,7 +63,7 @@ The assignment in the breakout room was to:
 	-	Lifestyle Factors: Health Insurance Coverage, Exercise Frequency, Social Inclusivity, Work Life Status, Monetary Stability
 	-	U.S. Census Data from January 2020 to December 2021: [https://www.census.gov/data/developers/data-sets.html]
 	-	US State Data: [https://covidtracking.com/data/download]
-	-	CDC Data from January 2020 to December 2021: [https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-Profile/xigx-wn5e)
+	-	CDC Data from January 2020 to December 2021: [https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-Profile/xigx-wn5e]
 
 
 3.	Questions hoped to answer with the data
