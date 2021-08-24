@@ -6,7 +6,7 @@
 
 
 ## Module 20 --- Project Group 4 --- George Washington / Trilogy Data Analysis Bootcamp
-The Project Deliverables were in 4 segments
+
 
 # Demo Day this Wednesday, August 25:  Boot Camp Participant
 # Data Analysis
