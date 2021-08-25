@@ -52,18 +52,23 @@ The assignment in the breakout room was to:
 	`	Target Variable: number of COVID-19 Cases / State Population
 	`	To determine which social, economic, and political factors contributed to the spread of COVID-19
 	-	Machine learning algorithm to predict which factors contributed the most to the spread of respiratory diseases like COVID-19
+	-	.
 
 
 2.	Description of the source of data 
-	-	Data from CDC and U.S. Census
+	-	Data from CDC (Centers for Disease Control and Prevention)
+	-	CDC Data on US States 
+	-	The date range: March 2020 to December 2020
+	-	Data from U.S. Census
 	-	Social Factors: Sex, Age, Race, Religion
 	-	Geographical Factors: Population Density, Number of Commercial Airports, State Land Area, Economic Factors
 	-	Median Household Income
 	-	Political Factors: State Mandates COVID-19 rules, Political Leaning, 
 	-	Lifestyle Factors: Health Insurance Coverage, Exercise Frequency, Social Inclusivity, Work Life Status, Monetary Stability
-	-	U.S. Census Data from January 2020 to December 2021: [https://www.census.gov/data/developers/data-sets.html]
-	-	US State Data: [https://covidtracking.com/data/download]
-	-	CDC Data from January 2020 to December 2021: [https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-Profile/xigx-wn5e]
+	-	U.S. Census Data from: [https://www.census.gov/data/developers/data-sets.html]
+	-	US State Data from: [https://covidtracking.com/data/download]
+	-	CDC Data from March 2020 to December 2021 from: [https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-Profile/xigx-wn5e]
+	-	.
 
 
 3.	Questions hoped to answer with the data
@@ -71,6 +76,8 @@ The assignment in the breakout room was to:
 	-	Which category of factor contributed the most to the spread of the disease?
 	-	Is there a connection between state policy or political leaning (i.e. mask mandate) and the spread of COVID-19 within the state
 	-	Do we need to account for the size of the population that didn't have COVID-19 when using a machine learning model?
+	-	What is the ratio of Covid 19 patients to the State population
+	-	.
 
 
 4.	GitHub Repository
@@ -79,10 +86,12 @@ The assignment in the breakout room was to:
 	-	Group Github Image branch: [https://github.com/dwwatson1/coronavirus_pandemic_playbook/tree/main/Images]
 	-	Group Github Javacript branch: [https://github.com/dwwatson1/coronavirus_pandemic_playbook/tree/main/Script]
 	-	Group GitHub Static branch: [https://github.com/dwwatson1/coronavirus_pandemic_playbook/tree/main/Static/JS]
+	-	.
 
 
 5.	The main branch should include: README.md
 	-	Group Github ReadME file: [https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/README.md]
+	-	.
 
 
 6.	The README.md should include: Description of the communication protocols, Individual Branches.
@@ -92,24 +101,29 @@ The assignment in the breakout room was to:
 	-	Data Cleaning and Analysis: Juypter Notebook - Pandas
 	-	Machine Learning Model: Google Collab Notebook
 	-	Presentation of Findings: Tableau Public, GitHub
+	-	.
+
+
 	Communication Protocol 
 	-	Slack Group where we had consistent communication
 	-	Zoom meetings
 	-	Project Checklist
 	-	Group meeting agendas: [https://drive.google.com/drive/folders/1sMOLvKQO-S99917fQL9axuocZujgKNZQ]
 	-	Breakout Rooms during BootCamp Zoom Class
+	-	.
 
 
 7.	Requirements for the individual branches follow: 
 	-	At least one branch for each team member
 	-	Group Github Individual branches: [https://github.com/dwwatson1/coronavirus_pandemic_playbook]
+	-	.
 
 
 8.	Machine Learning Model
 
 	The model we chose to use is a supervised random forest regression model. 
 	We chose supervised machine learning because we have labeled data (our features in tabular form) and outputs. 
-	The input data, or our features, has a paired outcome which is plugged in to train the model to predict outcomes. 
+	The input data, has a paired outcome which is plugged in to train the model to predict outcomes. 
 	Supervised machine learning models have target variables, or dependent variables, about which we want to gain a deeper understanding. 
 	In our case our target variable is how much effect COVID had on a state's population by looking at the total number of COVID cases divided by the total state population.
 
@@ -117,7 +131,8 @@ The assignment in the breakout room was to:
 	The algorithm can run efficiently on large datasets, and most importantly, random forest models can be used to rank the importance of input variables. 
 	This fits the question we are trying to answer perfectly: What are the top factors that influence the spread of COVID? 
 	A random forest model will help us rank the most influential factors. 
-	Since we have a large dataset with many features, as well as both continuous and categorical non-linear variables, a random forest algorithm will be more efficient and more accurate than a simple linear regression. While a large number of trees in a random forest algorithm can be slow requiring a lot of computational power and resources, the advantages outweigh the disadvantages.
+	Since we have a large dataset with many input, as well as both continuous and categorical non-linear variables, a random forest algorithm will be more efficient and more accurate than a simple linear regression. 
+	While a large number of trees in a random forest algorithm can be slow requiring a lot of computational power and resources, the advantages outweigh the disadvantages.
 
 
 9.	Takes in data from the provisional database, Outputs label for input data
@@ -186,36 +201,45 @@ The assignment in the breakout room was to:
 ### Roles
 #### Project Manager
 David
-Database Storage
+
+#### Database Storage
 Dinah
 Kimi
 Michael
+
 #### Data Cleaning and Analysis
 Dinah
 Kimi
 Michael
+
 #### Machine Learning Model
-Michael
+Michael.
+
 #### Presentation of Findings
 Yodit (Tableau)
 Jack (Tableau)
-David (approver) & Team (GitHub)
+
 #### Technologies Used
 Database Storage
 pgAdmin - PostgreSQL
 AWS RDS
+
 #### Data Cleaning and Analysis
 Juypter Notebook - Pandas
 Machine Learning Model
 Google Collab Notebook
+
 #### Presentation of Findings
 Tableau Public
 GitHub
+
 #### The Extra Mile
-Michael and David added to out Machine Learning Model
+Michael and David added to our Machine Learning Model
+	-	
 	-	States Dropped because insufficient data: Michigan, Missouri, Kentucky, Rhode Island, South Dakota, Texas, West Virginia
 	-	Recreated Data
 	-	[https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/script/no_covid_states.ipynb]
+	-	.
 	
 
 
@@ -229,7 +253,9 @@ Group Interpretaion
 	-	Results:
 	-	[https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/Resources/results_ratio2.PNG]
 	-	[https://github.com/dwwatson1/coronavirus_pandemic_playbook/blob/main/Resources/results_ratio.PNG]
-	Data Analysis Results Interpretation on Totals
+	-	.
+
+Data Analysis Results Interpretation on Totals
 	-	 (0.44178714821782483, 'covid_age_goup_0_17'),
 	-	 (0.07412533360663463, 'POPULATION_DENSITY'),
 	-	 (0.0737820324643414, 'covid_no_race'),
@@ -239,9 +265,7 @@ Group Interpretaion
 	-	 Which implies to me that Covid19 was spread most by the age group 0 to 17and in densly populated areas
 	-	 That record keepers didn't find it necesary to record the race of Covid19 patients
 	-	 Covid19 was spread the least among produce eaters, and moderates and those insured 
-
-
-
+	-	.
 
 
 
@@ -250,5 +274,5 @@ Group Interpretaion
 
 
 ### Future work
-I would be trying the same process with data from Africa and Europe, since I have lived there before
+Apply the same analysis to data from Africa and Europe, and eventually every continent
 
