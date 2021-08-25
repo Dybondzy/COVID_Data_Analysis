@@ -196,7 +196,7 @@ The assignment in the breakout room was to:
 14.	Dashboard
 
 
-## Assignement
+## Assignment
 
 ### Roles
 #### Project Manager
